@@ -1,1 +1,17 @@
+Hung_WAIRNI: Hưng Wave Analysis, Hung's Interpolation Rule and Đ.Đ.P.Hưng Numerical Integration.
+
+--
+Các Phần chính :
+0. The problem is the "illusion" that it was right. (in stopping the process of getting information about
+the function, because the computer cannot get infinite information).
+1. What is "wave", what is area (Rule)?
+2. How the "wave" forms are converted to "wave law" form for comparison (Rule)?
+3. Details on how to "draw" tangent lines for "measurement points/locations" located on the "wave".
+4. How to calculate?
+5. Hưng Wave Analysis's Goal.
+6. Numerical Integration.
+7. Hưng Wave Analysis.
+8. How to apply Hung_WAIRNI in practice?
+--
+
 
