@@ -1,5 +1,7 @@
 Hung_WAIRNI: Hưng Wave Analysis, Hung's Interpolation Rule and Đ.Đ.P.Hưng Numerical Integration.
 
+Creator : Đặng Đình Phú Hưng (Dang Dinh Phu Hung, https://github.com/nahhididwin)
+
 --
 Các Phần chính :
 0. The problem is the "illusion" that it was right. (in stopping the process of getting information about
