@@ -82,4 +82,31 @@ y_C = f'(x_A)(x_C - x_A) + y_A
 
 --
 5. Hưng Wave Analysis's Goal
+- Độ dốc
+- Cực trị
+- Hình dạng của wave
+- Và dĩ nhiên là có thể thêm nhiều thứ khác nữa (vận tốc,...).
+--
+
+--
+6. Numerical Integration:
+Tính diện tích của các hình con được tạo bởi đường tiếp tuyến,... là ra được xấp xỉ diện tích thật.
+Khi số lượng "vị trí" -> vô hạn; khoảng cách giữa các "vị trí" -> 0; thì diện tích tính được ngày càng đúng/gần hơn với diện tích thật sự.
+
+example : xem ảnh pic_0_4.png;
+
++ Chọn JD (Jump Distance) nếu thích, không thì cứ chia đều; JD là khoảng cách giữa các điểm "vị trí", hình bên trên là JD = 4 units; Tức A cách B
+4 units, B cách C ....
++ Sau đó thì như bạn có thể thấy, khi số lượng điểm "vị trí" (như A;B;C;D;E) tăng lên thì "wave" ngày càng được đo đạc chính xác hơn, vậy nên :
+
+Số lượng "vị trí" -> vô hạn; khoảng cách giữa các "vị trí" -> 0; thì chính xác hoàn toàn!
++ Sau đó tính diện tích của các S thôi (hình thang);
+--
+
+--
+7. Hưng Wave Analysis
+--
+
+--
+8. How to apply Hung_WAIRNI in practice?
 --
