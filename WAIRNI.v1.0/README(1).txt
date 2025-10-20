@@ -6,7 +6,7 @@ Languages ​​used: Vietnamese, English.
 Publication date (DD/MM/YYYY):
 
 --
-Các Phần chính :
+Các Phần Chính :
 0. The problem is the "illusion" that it was right. (in stopping the process of getting information about
 the function, because the computer cannot get infinite information).
 1. What is "wave", what is area (Rule)?
