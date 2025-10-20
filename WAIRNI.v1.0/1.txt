@@ -39,7 +39,7 @@ Xem ảnh pic_1.png
 Good Case: α_1 > α_2 * 2
 Required (Always) :
 Đường tiếp tuyến sẽ phải cắt nhau (2 đường cắt nhau), (Tiếp tuyến không song song với nhau), nếu không thì chỗ đó xài phương pháp khác, ex :
-Simpson's Rule,... 
+Simpson's Rule, Phương pháp hình thang, Riemann Sum,....
 --
 
 --
