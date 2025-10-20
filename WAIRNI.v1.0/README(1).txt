@@ -125,4 +125,5 @@ Kết thúc :
 Cuối cùng, tôi cảm ơn vì bạn đã đọc nó, nó là công sức nghiên cứu của tôi, dù gì thì do
 tôi thật sự đâm đầu vào nghiên cứu cái thứ này vào năm lớp 9 nên cũng không dễ dàng gì, có thể có sai sót
 . Nếu bạn thấy nó hay và học được điều gì hoặc ứng dụng nó, nếu có thể bạn có thể
-ghi tên tôi vào phần danh sách những người đóng góp hoặc không.
+ghi tên tôi vào phần danh sách những người đóng góp hoặc không, nhưng bạn sẽ không thể phủ nhận việc
+bạn đã sử dụng ý tưởng của tôi nếu tôi bảo bạn sử dụng ý tưởng của tôi.
