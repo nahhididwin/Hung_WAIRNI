@@ -116,3 +116,9 @@ vừa tìm được cực trị, độ dốc,... mà vừa có thể nội suy, 
 Và đó là thứ tôi muốn nói, đó là sử dụng những thứ đã được tính toán từ trước cho một thứ khác! 
 Và bạn có thể thỏa sức cải tiến Hung_WAIRNI theo cách của bạn, tôi đã nêu ý tưởng.
 --
+
+
+Kết thúc :
+
+Cuối cùng, tôi cảm ơn vì bạn đã đọc nó, nó là công sức nghiên cứu của tôi. Nếu bạn thấy nó hay và học được điều gì hoặc ứng dụng nó, nếu có thể bạn có thể
+ghi tên tôi vào phần danh sách những người đóng góp hoặc không.
