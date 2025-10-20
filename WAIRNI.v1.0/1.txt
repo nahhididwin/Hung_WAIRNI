@@ -62,5 +62,10 @@ Phương trình BC : y - y_B = m_BC (x - x_B) => y = f'(x_B)(x - x_B) + y_B
 
 Tại C thì tọa độ y 2 đường thẳng bằng nhau nên :
 f'(x_A)(x_C - x_A) + y_A = f'(x_B)(x_C - x_B) + y_B
+=> f'(x_A)x_C - f'(x_A)x_A + y_A = f'(x_B)x_C - f'(x_B)x_B + y_B
+=> f'(x_A)x_C - f'(x_B)x_C = f'(x_A)x_A - f'(x_B)x_B + y_B - y_A
+=> x_C [f'(x_A) - f'(x_B)] = f'(x_A)x_A - f'(x_B)x_B + y_B - y_A
+
+Công thức cho x_C :
 
 --
