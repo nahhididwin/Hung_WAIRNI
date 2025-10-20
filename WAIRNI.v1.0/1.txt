@@ -16,4 +16,29 @@ the function, because the computer cannot get infinite information).
 8. How to apply Hung_WAIRNI in practice?
 --
 
+--
+0. The problem is the "illusion" that it was right. (in stopping the process of getting information about
+the function, because the computer cannot get infinite information).
+HIR (very strong), xem ảnh pic_0_1.png;
+Simpson's Rule, Riemann Sum, Phương Pháp Hình Thang,... (Failed), xem ảnh pic_0_1.png;
+--
 
+--
+Rules :
+1. What is "wave", what is area?
+Xem ảnh pic_0_2.png;
+Calculating the area of a non-linear shape is easy if you "draw/approximate" the "wave" of the shape exactly. So the problem
+will be the "wave".
+
+
+
+2. How the "wave" forms are converted to "wave law" form for comparison:
+Xem ảnh pic_1.png
+Good Case: α_1 > α_2 * 2
+Required (Always) :
+Đường tiếp tuyến sẽ phải cắt nhau (2 đường cắt nhau), (Tiếp tuyến không song song với nhau), nếu không thì chỗ đó xài phương pháp khác, ex :
+Simpson's Rule,... 
+--
+
+3. Details on how to "draw" tangent lines for "measurement points/locations" located on the "wave".
+Xem ảnh pic_0_3.png;
