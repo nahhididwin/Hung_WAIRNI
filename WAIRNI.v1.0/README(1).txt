@@ -101,7 +101,8 @@ example : xem ảnh pic_0_4.png;
 + Sau đó thì như bạn có thể thấy, khi số lượng điểm "vị trí" (như A;B;C;D;E) tăng lên thì "wave" ngày càng được đo đạc chính xác hơn, vậy nên :
 
 Số lượng "vị trí" -> vô hạn; khoảng cách giữa các "vị trí" -> 0; thì chính xác hoàn toàn!
-+ Sau đó tính diện tích của các S thôi (hình thang);
++ Sau đó tính diện tích của các S thôi (hình thang), nói thật đấy tôi hy vọng bạn không nghĩ đến việc tính hình thang được tạo bởi A,B, vì nếu như thế
+thì chả khác gì phương pháp hình thang cổ điển, hy vọng bạn sẽ nghĩ đến việc tính diện tích hình thang được tạo bởi A,C,B!;
 --
 
 --
