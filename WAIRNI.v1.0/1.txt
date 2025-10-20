@@ -68,4 +68,16 @@ f'(x_A)(x_C - x_A) + y_A = f'(x_B)(x_C - x_B) + y_B
 
 Công thức cho x_C :
 
+x_C = [f'(x_A)x_A - f'(x_B)x_B + y_B - y_A]/[f'(x_A) - f'(x_B)]
+
+Yes, điều này giả định 2 tiếp tuyến không song song
+
+Công thức cho y_C :
+
+y_C = f'(x_A)(x_C - x_A) + y_A
+--
+
+
+--
+5. Hưng Wave Analysis's Goal
 --
