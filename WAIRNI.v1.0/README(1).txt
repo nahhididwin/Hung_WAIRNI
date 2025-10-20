@@ -21,7 +21,7 @@ the function, because the computer cannot get infinite information).
 --
 0. The problem is the "illusion" that it was right. (in stopping the process of getting information about
 the function, because the computer cannot get infinite information).
-HIR (very strong/failed), xem ảnh pic_0_1.png;
+Hung_WAIRNI (very strong/failed), xem ảnh pic_0_1.png;
 Simpson's Rule, Riemann Sum, Phương Pháp Hình Thang,... (Failed), xem ảnh pic_0_1.png;
 --
 
