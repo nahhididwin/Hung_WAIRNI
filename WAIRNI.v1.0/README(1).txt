@@ -96,7 +96,7 @@ Khi số lượng "vị trí" -> vô hạn; khoảng cách giữa các "vị tr�
 
 example : xem ảnh pic_0_4.png;
 
-+ Chọn JD (Jump Distance) nếu thích, không thì cứ chia đều; JD là khoảng cách giữa các điểm "vị trí", hình bên trên là JD = 4 units; Tức A cách B
++ Chọn JD (Jump Distance) nếu thích (Vầng, việc tự chọn JD là tôi đang mở đường cho việc Adaptive đấy, kiểu như adaptive integration trong lập trình), không thì cứ chia đều; JD là khoảng cách giữa các điểm "vị trí", hình bên trên là JD = 4 units; Tức A cách B
 4 units, B cách C ....
 + Sau đó thì như bạn có thể thấy, khi số lượng điểm "vị trí" (như A;B;C;D;E) tăng lên thì "wave" ngày càng được đo đạc chính xác hơn, vậy nên :
 
