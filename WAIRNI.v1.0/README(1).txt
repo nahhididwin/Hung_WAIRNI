@@ -34,6 +34,7 @@ the function, because the computer cannot get infinite information" mà tôi đ�
 Vầng, điều này ngầm khẳng định nếu cho hàm số, và hàm số đó thật sự phức tạp (rất phức tạp) thì các JD khi cách xa nhau 
 (The problem is the "illusion" that it was right) và khó khắc phục vì vấn đề cốt lõi của máy tính,
 thì Hung_WAIRNI sẽ có lợi thế hơn so với các phương pháp truyền thống, kể cả là Simpson's Rule.
+Và dĩ nhiên là hàm số cũng nên phức tạp ở mức chấp nhận được thôi, chứ nếu mà QUÁ MỨC PHỨC TẠP thì cũng thua.
 --
 
 --
