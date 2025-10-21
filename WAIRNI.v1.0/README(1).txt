@@ -113,6 +113,10 @@ example : xem ảnh pic_0_4.png;
 Số lượng "vị trí" -> vô hạn; khoảng cách giữa các "vị trí" -> 0; thì chính xác hoàn toàn!
 + Sau đó tính diện tích của các S thôi (hình thang), nói thật đấy tôi hy vọng bạn không nghĩ đến việc tính hình thang được tạo bởi A,B, vì nếu như thế
 thì chả khác gì phương pháp hình thang cổ điển, hy vọng bạn sẽ nghĩ đến việc tính diện tích hình thang được tạo bởi A,C,B!;
+
+Ghi chú : Như bạn có thể thấy, phương pháp tích phân số này thật sự khá phức tạp khi đòi hỏi tính đạo hàm tại "wave", trông nó có vẻ như tệ? Nhưng thực tế,
+đây là 1 phần của dự án lớn Hung_WAIRNI, vì do Hung_WAIRNI còn được xài để Wave Analysis, Tìm cực trị,... nên sẽ được thừa hưởng rất nhiều thông tin, bao gồm cả
+nhiều thông tin về đạo hàm của hàm số, nên bạn hiểu ý tôi rồi đó, tích phân của chúng ta sẽ tận dụng cái này.
 --
 
 --
