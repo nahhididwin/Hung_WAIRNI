@@ -25,8 +25,12 @@ the function, because the computer cannot get infinite information).
 Kiểu như là bro phải hiểu rằng là khi "Jump Distance (JD)" ngày càng tiến về 0, và số lượng JD tiến đến vô hạn, thì nó sẽ tính được
 hoàn toàn chính xác. Nhưng vấn đề là máy tính không thể tính được vô hạn như vậy, nó phải biết điểm dừng, và nó sẽ dừng lại khi JD đạt
 đến 1 ngưỡng nào đó, và nếu hàm số vẫn còn quá phức tạp thì sẽ gây ra lỗi, về cơ bản là như thế.
+
 Hung_WAIRNI (very strong/failed), xem ảnh pic_0_1.png;
 Simpson's Rule, Riemann Sum, Phương Pháp Hình Thang,... (Failed), xem ảnh pic_0_1.png;
+
+Ghi chú : Lý do tôi để JD rất xa nhau, và hàm số phức tạp như vậy thì đó là mô phỏng cho việc "in stopping the process of getting information about
+the function, because the computer cannot get infinite information" mà tôi đã đề cập ở trên. Nên nó sẽ khác so với Simpson's Rule,... truyền thống.
 --
 
 --
