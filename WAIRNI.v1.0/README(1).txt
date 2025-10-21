@@ -31,7 +31,9 @@ Simpson's Rule, Riemann Sum, Phương Pháp Hình Thang,... (Failed), xem ảnh 
 
 Ghi chú : Lý do tôi để JD rất xa nhau, và hàm số phức tạp như vậy thì đó là mô phỏng cho việc "in stopping the process of getting information about
 the function, because the computer cannot get infinite information" mà tôi đã đề cập ở trên. Nên nó sẽ khác so với Simpson's Rule,... truyền thống.
-Vầng, điều này ngầm khẳng định nếu cho hàm số, và hàm số đó thật sự phức tạp (rất phức tạp) thì các JD khi cách xa nhau (The problem is the "illusion" that it was right) và khó khắc phục vì vấn đề cốt lõi của máy tính, thì Hung_WAIRNI sẽ có lợi thế hơn so với các phương pháp truyền thống, kể cả là Simpson's Rule.
+Vầng, điều này ngầm khẳng định nếu cho hàm số, và hàm số đó thật sự phức tạp (rất phức tạp) thì các JD khi cách xa nhau 
+(The problem is the "illusion" that it was right) và khó khắc phục vì vấn đề cốt lõi của máy tính,
+thì Hung_WAIRNI sẽ có lợi thế hơn so với các phương pháp truyền thống, kể cả là Simpson's Rule.
 --
 
 --
