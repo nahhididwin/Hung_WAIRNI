@@ -86,7 +86,7 @@ y_C = f'(x_A)(x_C - x_A) + y_A
 - Độ dốc
 - Cực trị
 - Hình dạng của wave
-- Và dĩ nhiên là có thể thêm nhiều thứ khác nữa (vận tốc, sửa lỗi "wave", nén "wave", phân tích "wave", so sánh "wave",...).
+- Và dĩ nhiên là có thể thêm nhiều thứ khác nữa (vận tốc, sửa lỗi "wave", nén "wave", phân tích "wave",...).
 --
 
 --
