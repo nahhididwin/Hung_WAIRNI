@@ -70,7 +70,8 @@ Tọa độ điểm B: (x_B, y_B)
 Hàm số đường phi tuyến màu xanh : y = f(x)
 (Lưu ý quan trọng, trên thực tế, có thể có dạng dữ liệu không phải hàm số, mà là 1 chuỗi các điểm, nên lúc đấy
 chúng ta sẽ "xấp xỉ" đạo hàm! Dĩ nhiên là xấp xỉ đạo hàm theo cách thông thường có thể bị vấn đề lớn nếu gặp "nhiễu nặng", nên chúng ta
-có thể sử dụng các phương pháp như : Savitzky-Golay)
+có thể sử dụng cách đó là thay vì lấy delta x -> 0, thì lấy delta x cách "đủ xa" để cho nó "mạnh mẽ" hơn, có thể sử dụng thuật toán lấy delta x dựa trên độ dài của
+JD?)
 
 Hệ số góc của tiếp tuyến AC tại A(x_A, y_A) là : m_AC = f'(x_A)
 Hệ số góc của tiếp tuyến BC tại B(x_B, y_B) là : m_BC = f'(x_B)
