@@ -118,7 +118,7 @@ thì chả khác gì phương pháp hình thang cổ điển, hy vọng bạn s�
 Đây là phần quan trọng giúp Hung_WAIRNI thật sự hiệu quả trên thực tế, vầng tôi lấy ý tưởng 1 chút từ Dynamic Programming (DP) để làm việc này. 
 Đó là như bạn đã thấy, vì chúng ta đã tính được rất nhiều thông tin về "wave", các kiểu,... nên chúng ta vừa có thể Wave Analysis, 
 vừa tìm được cực trị, độ dốc,... mà vừa có thể nội suy, tính diện tích (mà thật ra tính diện tích không đơn thuần chỉ có tác dụng là
-tính diện tích đâu, nó còn có thể giúp "so sánh wave" và phân tích "wave" đấy, kiểu như wavelet transform).
+tính diện tích đâu, nó còn có thể giúp "so sánh wave" và phân tích "wave" đấy,...).
 Và đó là thứ tôi muốn nói, đó là sử dụng những thứ đã được tính toán từ trước cho một thứ khác! 
 Và bạn có thể thỏa sức cải tiến Hung_WAIRNI theo cách của bạn, tôi đã nêu ý tưởng.
 --
