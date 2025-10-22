@@ -9,4 +9,4 @@ https://github.com/nahhididwin/Hung_WAIRNI/blob/main/LICENSE
 
 Phiên bản v1.0 (Thử nghiệm) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v1.0/README(1).txt
 
-Phiên bản v2.0 : in working
+Phiên bản v2.0 (Thử nghiệm) : in working
