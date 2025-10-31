@@ -7,3 +7,8 @@ Publication date (DD/MM/YYYY): not this time
 
 --
 Các Phần Chính :
+1. Vấn đề "chia", và kiểu dữ liệu liên quan
+2. Khả năng của đạo hàm đối với việc tìm đỉnh với dạng dữ liệu liên quan.
+3. AUC (Area under the Curve)
+4. Bổ sung thêm biên độ, cực trị
+--
