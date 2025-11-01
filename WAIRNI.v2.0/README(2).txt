@@ -89,7 +89,7 @@ Hãy xem p1.png : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2
 
 Tóm lại : 
 Vấn đề "chia" là vấn đề kiểu như 0.85 giây mà tôi nói rồi đấy, nó khiến cho số lượng "mẫu/điểm đo đạc" tăng lên kinh khủng.
-Và "kiểu dữ liệu liên quan" mà tôi muốn các bạn nhớ đến nhiều nhất là kiểu dữ liệu bị vấn đề chia, bất đối xứng, và "nhiễu có độ cao trục y thấp", và có 1 đoạn tuyến tính, và có đoạn phi tuyến và nó nằm ở khoảng chỗ "đỉnh" (yes nó kiểu như ECG (QRS) hay đồ thị sin,...), vầng nó vô cùng phổ biến trên thực tế trong nhiều tác vụ hiện nay.
+Và "kiểu dữ liệu liên quan" mà tôi muốn các bạn nhớ đến nhiều nhất là kiểu dữ liệu bị vấn đề chia, bất đối xứng, và "nhiễu có độ cao trục y thấp", và có 1 đoạn tuyến tính, và có đoạn phi tuyến và nó nằm ở khoảng chỗ "đỉnh" (yes nó kiểu như ECG (QRS) hay đồ thị sin,...), vầng nó vô cùng phổ biến trên thực tế trong nhiều tác vụ hiện nay. Tôi đoán nó như kiểu dữ liệu dạng pulse nhưng đã được lọc nhiễu, dù gì trên thực tế người ta cũng phải lọc nhiễu trước rồi mới tích phân cho dù là phương pháp tích phân nào y chang nữa =)).
 
 Ví dụ 1 xíu :
 
