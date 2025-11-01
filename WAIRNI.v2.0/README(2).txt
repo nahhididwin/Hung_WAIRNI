@@ -63,4 +63,4 @@ Cho nên nếu như điểm "đo đạc/lấy mẫu" mà ở vị trí trên tr�
 Vậy cùng nhau quay lại với Tích phân số cơ bản nha, tôi sẽ không nói đến Riemann Sum Hình chữ nhật vì nó thường không ngon bằng Trapezoidal Rule =)).
 Đọc wiki : https://en.wikipedia.org/wiki/Trapezoidal_rule
 Như chúng ta thấy, nó tính diện tích dưới "hình thang" hoặc hiếm lắm thì "hình tam giác" của các điểm (đo đạc/lấy mẫu). Haha các ông thấy gì chưa,
-vì tọa độ của các điểm "đo đạc/lấy mẫu" không đẹp tý nào nên là nó sẽ tăng số lượng các điểm này lên kinh dị.
+vì tọa độ của các điểm "đo đạc/lấy mẫu" không đẹp tý nào nên là nó sẽ tăng số lượng các điểm này lên kinh dị. Dẫn đến việc tăng sức nặng cho việc tính toán.
