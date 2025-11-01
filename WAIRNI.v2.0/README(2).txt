@@ -19,6 +19,9 @@ Các Phần Chính :
 
 
 Trước hết bạn cần biết như này (biết rồi thì thôi, à mà vấn đề "chia" là do tôi tự nghĩ ra nên khả năng bạn chưa biết hết đâu nên cứ đọc đi) :
+
+Hãy đọc về Derivative (Đạo hàm) : https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1o_h%C3%A0m
+
 Quá trình chuyển đổi tín hiệu liên tục (sóng từ môi trường) thành tín hiệu số trên máy tính được gọi là số hóa (digitization), bao gồm hai bước chính: 
 Lấy mẫu (Sampling) và Lượng tử hóa (Quantization).
 Khoảng cách đều nhau: Trong hầu hết các ứng dụng phổ biến (như xử lý âm thanh, hình ảnh, video, tín hiệu vô tuyến thông thường, đo lường cảm biến...),
