@@ -43,4 +43,7 @@ NÓ LẤY MẪU ĐẾN TẬN 73 CÁI CHO TAM GIÁC ABC (ý tôi là đường tu
 Vầng, biết vì sao lại như thế không, tại vì tọa độ của điểm C "không được đẹp" (thế nào là không được đẹp, tôi cảm thấy việc
 bản thân mình cứ kiểu sử dụng từ ngữ không khoa học mà thường ngày như này không ổn cho lắm, tôi đoán mình sẽ sửa sau, nhưng
 ý tôi là kiểu như này là đẹp nè x = 3, còn này là xấu nè 3.59, còn này là ối dồi ôi siêu xấu nè : 3.86818618618618618618618).
-Và 
+Cùng nhau tưởng tượng nhé? nếu như có 1 đồ thị có 2 trục x,y. Và ông cũng biết mà, trên máy tính thì sẽ không có đường tuyến tính
+hay là phi tuyến tính gì cả, mà nó sẽ chỉ có các điểm ("mẫu") mà tôi đã nhắc đến ở bên trên kia, để mô phỏng cho mấy cái đường đó.
+Về cơ bản nó trông như này : Điểm 1 (x:1;y:1); Điểm 2 (x:2;y:2). Vầng đó là 1 đường tuyến tính =))), vì chúng ta sẽ nối 2 điểm đó
+lại với nhau.
