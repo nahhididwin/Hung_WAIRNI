@@ -53,7 +53,8 @@ nối lại với nhau để giả cong mà thôi.
 Vậy điều này có ý nghĩa gì?
 Giả sử có đường tuyến tính AB nằm trong 1 signal, được tạo ra bởi 2 điểm AB nối nhau. Và tọa độ điểm A (x:1;y:1); tọa độ điểm B (x:2;y:2).
 Bro sẽ chỉ cần 2 điểm đo đạc cách đều nhau 1 đơn vị (có thể là giây, phút hay cái gì đó, nhưng chúng ta sẽ gọi nó là unit nhé).
-Nói đơn giản thì từ "unit" là 1 từ tôi bịa ra để chỉ ra khoảng cách nhỏ nhất giữa 2 điểm có trong signal nhé.
+Nói đơn giản thì từ "unit" là 1 từ tôi bịa ra để chỉ ra khoảng cách nhỏ nhất giữa 2 điểm có trong signal nhé, ví dụ như là trong signal có 3 điểm,
+điểm 1 cách điểm 2 1 giây, điểm 2 cách điểm 3 0.5 giây, vậy 1 unit sẽ bằng 0.5 giây.
 
 Nhưng đời không như mơ khi dữ liệu thực tế gần như không bao giờ đẹp đẽ như thế, tưởng tượng thử nhé, nhịp tim của ông liệu có đập đúng vào
 lúc 1 giây sau khi bắt đầu đo rồi đúng 1 giây sau đập tiếp rồi cứ như vậy đến vô hạn không, dĩ nhiên là không =)). 
