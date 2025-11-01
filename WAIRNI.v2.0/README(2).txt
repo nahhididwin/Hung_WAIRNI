@@ -120,6 +120,8 @@ Tọa độ điểm B: (x_B, y_B)
 Hàm số đường phi tuyến màu xanh : y = f(x)
 (Lưu ý quan trọng, trên thực tế, dữ liệu là dạng các điểm rời rạc, nên lúc đấy chúng ta sẽ "xấp xỉ" đạo hàm! Tôi để hàm số cho dễ hình dung thôi).
 
+Vui lòng không nhầm lẫn : f'(x) là ký hiệu của đạo hàm! Không phải là f(x), ký hiệu của hàm số!
+
 Hệ số góc của tiếp tuyến AC tại A(x_A, y_A) là : m_AC = f'(x_A)
 Hệ số góc của tiếp tuyến BC tại B(x_B, y_B) là : m_BC = f'(x_B)
 Phương trình AC : y - y_A = m_AC (x - x_A) => y = f'(x_A)(x - x_A) + y_A
