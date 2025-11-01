@@ -6,6 +6,8 @@ Date of birth (Dang Dinh Phu Hung) (DD/MM/YYYY): 20/06/2011
 Languages ​​used: Vietnamese, English.
 Publication date (DD/MM/YYYY): 01/11/2025
 
+Nhắc lại, project này sử dụng giấy phép này (MIT LICENSE) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/LICENSE
+
 --
 Các Phần Chính :
 1. Vấn đề "chia", bất đối xứng, và kiểu dữ liệu liên quan
