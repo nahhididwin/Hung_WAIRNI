@@ -5,6 +5,8 @@ Date of birth (Dang Dinh Phu Hung) (DD/MM/YYYY): 20/06/2011
 Languages ​​used: Vietnamese, English.
 Publication date (DD/MM/YYYY): 20/10/2025
 
+CẢNH BÁO : ĐÂY LÀ PHIÊN BẢN CŨ (v1.0) ĐÃ ĐƯỢC PHÁT HIỆN CÓ NHIỀU VẤN ĐỀ SAI, VUI LÒNG CẨN THẬN VÀ CHÚ Ý!
+
 --
 Các Phần Chính :
 0. The problem is the "illusion" that it was right. (in stopping the process of getting information about
