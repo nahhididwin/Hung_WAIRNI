@@ -26,7 +26,9 @@ gọi là chu kỳ lấy mẫu (T_s).
 Tính toán và Khôi phục dễ dàng: Việc lấy mẫu cách đều nhau giúp cho việc xử lý tín hiệu số (DSP - Digital Signal Processing) sau này trở nên đơn giản và hiệu quả hơn rất nhiều.
 Quan trọng hơn, nó cho phép khôi phục lại tín hiệu tương tự gốc một cách chính xác nhất có thể (trong giới hạn của Định lý Nyquist–Shannon)
 nếu tần số lấy mẫu (F_s = 1/T_s) đủ lớn.
-Định lý Nyquist–Shannon trên wikipedia (một định lý được sử dụng trong lĩnh vực lý thuyết thông tin) : https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_l%E1%BA%A5y_m%E1%BA%ABu_Nyquist%E2%80%93Shannon
+Định lý Nyquist–Shannon trên wikipedia (một định lý được sử dụng trong lĩnh vực lý thuyết thông tin) : 
+
+https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_l%E1%BA%A5y_m%E1%BA%ABu_Nyquist%E2%80%93Shannon
 
 
 
