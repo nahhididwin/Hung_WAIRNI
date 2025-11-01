@@ -39,3 +39,4 @@ Tôi đã lấy hình ảnh đó tại đây : https://en.wikipedia.org/wiki/Pan
 
 
 Và hãy xem ảnh này (Do tôi tự làm, nên nguồn sẽ là ở ngay đây) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p2.png
+NÓ LẤY MẪU ĐẾN TẬN 73 CÁI CHO TAM GIÁC ABC (ý tôi là đường tuyến tính ABC, còn cái gạch đen ở dưới là trục x thôi)!!!!
