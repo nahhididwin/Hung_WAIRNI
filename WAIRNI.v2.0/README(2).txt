@@ -96,6 +96,8 @@ Ví dụ 1 xíu :
 Dữ liệu raw data khi chưa lọc thường như này (p1.png) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p1.png
 Sau khi qua bộ lọc thường như này (p99.jpg) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p99.jpg
 À mà ảnh p99.jpg tôi lấy tại đây : https://ocaclinic.vn/tin-tuc/hinh-dang-va-co-che-hinh-thanh-cac-song-tren-dien-tam-do
+
+Tôi đoán có thể 1 số ông sẽ biết đến cái thứ này : Bộ lọc Savitzky-Golay
 --
 
 
