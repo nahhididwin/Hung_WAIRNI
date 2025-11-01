@@ -89,7 +89,7 @@ Hãy xem p1.png : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2
 
 Tóm lại : 
 Vấn đề "chia" là vấn đề kiểu như 0.85 giây mà tôi nói rồi đấy, nó khiến cho số lượng "mẫu/điểm đo đạc" tăng lên kinh khủng.
-Và "kiểu dữ liệu liên quan" mà tôi muốn các bạn nhớ đến nhiều nhất là kiểu dữ liệu bị vấn đề chia, bất đối xứng, và "nhiễu có độ cao trục y thấp", vầng nó vô cùng phổ biến trên thực tế trong nhiều tác vụ hiện nay.
+Và "kiểu dữ liệu liên quan" mà tôi muốn các bạn nhớ đến nhiều nhất là kiểu dữ liệu bị vấn đề chia, bất đối xứng, và "nhiễu có độ cao trục y thấp", và có 1 đoạn tuyến tính, và có đoạn phi tuyến và nó nằm ở khoảng chỗ "đỉnh" (yes nó kiểu như ECG (QRS) hay đồ thị sin,...), vầng nó vô cùng phổ biến trên thực tế trong nhiều tác vụ hiện nay.
 --
 
 
@@ -137,10 +137,10 @@ Và đúng rồi đấy, nó mất tầm 18 phép tính thôi =))), thay vì là
 Đọc simpson's rule : https://en.wikipedia.org/wiki/Simpson%27s_rule
 
 
-Vậy nếu như không phải đường tuyến tính mà là phi tuyến thì sao?
+Vậy nếu như không phải đường tuyến tính mà là phi tuyến thì sao? Thực tế thì thường dữ liệu có 1 đoạn tuyến tính (mà đoạn này sẽ tận dụng đạo hàm để rút bớt sức nặng tính toán), và 1 đoạn phi tuyến tính thường ở đỉnh nha, kiểu như đồ thị sin hay ECG (QRS) nào đó.
 Xin lỗi vì đã để top những thứ quan trọng nhất của tích phân ở tít dưới này =))). Nhưng mà thực tế thì tôi đoán 1 số ông đoán ngay ra cách rồi.
 Hãy cùng xem lại cái ảnh này nữa (p2.png) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p2.png
-Biết sao tôi để thêm cái điểm B'' và điểm B' không =))? Giờ hãy tưởng tượng có 1 cái đường cong bắt đầu từ B' rồi "đỉnh" của đường cong đó là điểm B đi, rồi phần kết thúc của đường cong đó là điểm B''. Ừ có thể nghĩ đó là parabol cũng được, tùy mấy ông. Ừ thì phần này đơn giản thôi, vì chúng ta đã kiểu "nội suy/ngoại suy" ra được điểm B rồi, thì chúng ta sẽ check lại thêm 1 lần nữa (sau này tôi sẽ giải thích) vào điểm "đo đạc/mẫu" của dữ liệu thực tế hoặc dữ liệu đã được lọc nhiễu gần tọa độ của điểm B chúng ta đã làm ra nhất. Rồi sau đó tính tích phân bên trái và bên phải của điểm đó, ý là các điểm 2 bên (trái/phải) của điểm đó, dồn ra 2 phía (giữa sang trái, và trái sang phải). Vầng áp dụng phương pháp tích phân số cổ điển cho việc này (chẳng hạn như simpson's rule/phương pháp hình thang), nhưng nhớ là chỉ áp dụng cho phần cong thôi nhé, có thể đặt sẵn "số lượng điểm đo đạc/mẫu" gần điểm đã được chúng ta làm ra bằng giao điểm của 2 đường tiếp tuyến của đạo hàm sẽ được áp dụng tính tích phân cổ điển.
+Biết sao tôi để thêm cái điểm B'' và điểm B' không =))? Giờ hãy tưởng tượng có 1 cái đường cong bắt đầu từ B' rồi "đỉnh" của đường cong đó là điểm B đi, rồi phần kết thúc của đường cong đó là điểm B''. Ừ có thể nghĩ đó là parabol cũng được, tùy mấy ông. Ừ thì phần này đơn giản thôi, vì chúng ta đã kiểu "nội suy/ngoại suy" ra được điểm B rồi, thì chúng ta sẽ check lại thêm 1 lần nữa (sau này tôi sẽ giải thích) vào điểm "đo đạc/mẫu" của dữ liệu thực tế hoặc dữ liệu đã được lọc nhiễu gần tọa độ của điểm B chúng ta đã làm ra nhất. Rồi sau đó tính tích phân bên trái và bên phải của điểm đó, ý là các điểm 2 bên (trái/phải) của điểm đó, dồn ra 2 phía (giữa sang trái, và trái sang phải). Vầng áp dụng phương pháp tích phân số cổ điển cho việc này (chẳng hạn như simpson's rule/phương pháp hình thang), nhưng nhớ là chỉ áp dụng cho phần cong thôi nhé, có thể đặt sẵn "số lượng điểm đo đạc/mẫu" gần điểm đã được chúng ta làm ra bằng giao điểm của 2 đường tiếp tuyến của đạo hàm sẽ được áp dụng tính tích phân cổ điển. Yên tâm đi với dữ liệu đã qua bộ lọc thì dư sức xài tốt.
 
 .... còn tiếp ....
 
