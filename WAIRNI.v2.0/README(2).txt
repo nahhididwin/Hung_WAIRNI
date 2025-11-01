@@ -35,4 +35,4 @@ https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_l%E1%BA%A5y_m%E1%BA%ABu_
 Và vì dữ liệu đa phần (gần như chắc chắn) đều là "bất đối xứng", và vô cùng nhiều vị trí "lấy mẫu",
 hãy xem hình ảnh này như 1 ví dụ : 
 https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p1.png
-
+Nguồn của hình ảnh : https://en.wikipedia.org/wiki/Pan%E2%80%93Tompkins_algorithm
