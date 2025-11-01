@@ -135,4 +135,29 @@ y_C = f'(x_A)(x_C - x_A) + y_A
 Và đúng rồi đấy, nó mất tầm 18 phép tính thôi =))), thay vì là khoảng 15*3 = 45 nếu Sử dụng tích phân số phương pháp hình thang (À mà cho dù là simpson's rule thì nếu như là đồ thị phi tuyến hay gặp vấn đề "chia" thì cũng chậm hơn Hung_WAIRNI thôi); tức là nhanh hơn khoảng 40%, thực tế nó có thể hơn nữa.
 
 
+Vậy nếu như không phải đường tuyến tính mà là phi tuyến thì sao?
+Xin lỗi vì đã để top những thứ quan trọng nhất của tích phân ở tít dưới này =))). Nhưng mà thực tế thì tôi đoán 1 số ông đoán ngay ra cách rồi.
+Hãy cùng xem lại cái ảnh này nữa (p2.png) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p2.png
+Biết sao tôi để thêm cái điểm B'' và điểm B' không =))? Giờ hãy tưởng tượng có 1 cái đường cong bắt đầu từ B' rồi "đỉnh" của đường cong đó là điểm B đi, rồi phần kết thúc của đường cong đó là điểm B''. Ừ có thể nghĩ đó là parabol cũng được, tùy mấy ông. Ừ thì phần này đơn giản thôi, vì chúng ta đã kiểu "nội suy/ngoại suy" ra được điểm B rồi, thì chúng ta sẽ check lại thêm 1 lần nữa (sau này tôi sẽ giải thích) vào điểm "đo đạc/mẫu" của dữ liệu thực tế hoặc dữ liệu đã được lọc nhiễu gần tọa độ của điểm B chúng ta đã làm ra nhất. Rồi sau đó tính tích phân bên trái và bên phải của điểm đó, ý là các điểm 2 bên (trái/phải) của điểm đó, dồn ra 2 phía (giữa sang trái, và trái sang phải). Vầng áp dụng phương pháp tích phân số cổ điển cho việc này (chẳng hạn như simpson's rule/phương pháp hình thang), nhưng nhớ là chỉ áp dụng cho phần cong thôi nhé, có thể đặt sẵn "số lượng điểm đo đạc/mẫu" gần điểm đã được chúng ta làm ra bằng giao điểm của 2 đường tiếp tuyến của đạo hàm sẽ được áp dụng tính tích phân cổ điển.
+
+--
+
+
+--
+3. AUC (Area under the Curve) bằng Hung_WAIRNI
+
+Tôi sẽ sớm bổ sung phần chứng minh lỗi, và công thức tổng quát chính thức,...
+
+--
+
+--
+4. Bổ sung thêm biên độ, cực trị
+Tôi sẽ sớm bổ sung...
+--
+
+
+--
+5. Lời kết
+
+Cảm ơn vì đã đọc. Nó có thể có sai sót, nhưng tôi đã luôn cố gắng sửa, nếu có vấn đề gì hãy liên hệ riêng tôi! Dù gì tôi thật sự làm cái này vào năm lớp 9 nên còn non lém :3.
 --
