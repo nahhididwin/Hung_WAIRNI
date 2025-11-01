@@ -142,6 +142,8 @@ Xin lỗi vì đã để top những thứ quan trọng nhất của tích phân
 Hãy cùng xem lại cái ảnh này nữa (p2.png) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p2.png
 Biết sao tôi để thêm cái điểm B'' và điểm B' không =))? Giờ hãy tưởng tượng có 1 cái đường cong bắt đầu từ B' rồi "đỉnh" của đường cong đó là điểm B đi, rồi phần kết thúc của đường cong đó là điểm B''. Ừ có thể nghĩ đó là parabol cũng được, tùy mấy ông. Ừ thì phần này đơn giản thôi, vì chúng ta đã kiểu "nội suy/ngoại suy" ra được điểm B rồi, thì chúng ta sẽ check lại thêm 1 lần nữa (sau này tôi sẽ giải thích) vào điểm "đo đạc/mẫu" của dữ liệu thực tế hoặc dữ liệu đã được lọc nhiễu gần tọa độ của điểm B chúng ta đã làm ra nhất. Rồi sau đó tính tích phân bên trái và bên phải của điểm đó, ý là các điểm 2 bên (trái/phải) của điểm đó, dồn ra 2 phía (giữa sang trái, và trái sang phải). Vầng áp dụng phương pháp tích phân số cổ điển cho việc này (chẳng hạn như simpson's rule/phương pháp hình thang), nhưng nhớ là chỉ áp dụng cho phần cong thôi nhé, có thể đặt sẵn "số lượng điểm đo đạc/mẫu" gần điểm đã được chúng ta làm ra bằng giao điểm của 2 đường tiếp tuyến của đạo hàm sẽ được áp dụng tính tích phân cổ điển.
 
+.... còn tiếp ....
+
 --
 
 
