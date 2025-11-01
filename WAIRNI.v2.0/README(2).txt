@@ -36,3 +36,6 @@ Và vì dữ liệu đa phần (gần như chắc chắn) đều là "bất đ�
 hãy xem hình ảnh này như 1 ví dụ : 
 https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p1.png
 Tôi đã lấy hình ảnh đó tại đây : https://en.wikipedia.org/wiki/Pan%E2%80%93Tompkins_algorithm
+
+
+Và hãy xem ảnh này (Do tôi tự làm, nên nguồn sẽ là ở ngay đây) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p2.png
