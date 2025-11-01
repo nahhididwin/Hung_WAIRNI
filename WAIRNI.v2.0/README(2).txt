@@ -59,3 +59,8 @@ tiếp 1 phát nữa. Vầng thật ra nó cũng cho vui thôi chứ thực tế
 
 Cho nên nếu như điểm "đo đạc/lấy mẫu" mà ở vị trí trên trục x kiểu nó có những chữ số sau dấu phẩy ",", thì nó sẽ thường sẽ tăng đáng kể số điểm đo đạc, ờ thật ra
 điều này là hiển nhiên.
+
+Vậy cùng nhau quay lại với Tích phân số cơ bản nha, tôi sẽ không nói đến Riemann Sum Hình chữ nhật vì nó thường không ngon bằng Trapezoidal Rule =)).
+Đọc wiki : https://en.wikipedia.org/wiki/Trapezoidal_rule
+Như chúng ta thấy, nó tính diện tích dưới "hình thang" hoặc hiếm lắm thì "hình tam giác" của các điểm (đo đạc/lấy mẫu). Haha các ông thấy gì chưa,
+vì tọa độ của các điểm "đo đạc/lấy mẫu" không đẹp tý nào nên là nó sẽ tăng số lượng các điểm này lên kinh dị.
