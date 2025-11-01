@@ -1,6 +1,8 @@
 # Hung_WAIRNI
 Hưng Wave Analysis, Hung's Interpolation Rule and Đ.Đ.P.Hưng Numerical Integration
 
+my profile : https://github.com/nahhididwin/inputnothing
+
 # LICENSE :
 
 https://github.com/nahhididwin/Hung_WAIRNI/blob/main/LICENSE
