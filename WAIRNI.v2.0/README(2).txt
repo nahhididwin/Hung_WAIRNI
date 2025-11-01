@@ -134,6 +134,8 @@ y_C = f'(x_A)(x_C - x_A) + y_A
 
 Và đúng rồi đấy, nó mất tầm 18 phép tính thôi =))), thay vì là khoảng 15*3 = 45 nếu Sử dụng tích phân số phương pháp hình thang (À mà cho dù là simpson's rule thì nếu như là đồ thị phi tuyến hay gặp vấn đề "chia" thì cũng chậm hơn Hung_WAIRNI thôi); tức là nhanh hơn khoảng 40%, thực tế nó có thể hơn nữa.
 
+Đọc simpson's rule : https://en.wikipedia.org/wiki/Simpson%27s_rule
+
 
 Vậy nếu như không phải đường tuyến tính mà là phi tuyến thì sao?
 Xin lỗi vì đã để top những thứ quan trọng nhất của tích phân ở tít dưới này =))). Nhưng mà thực tế thì tôi đoán 1 số ông đoán ngay ra cách rồi.
