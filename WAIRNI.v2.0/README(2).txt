@@ -56,3 +56,6 @@ Nhưng đời không như mơ khi dữ liệu thực tế gần như không bao 
 lúc 1 giây sau khi bắt đầu đo rồi đúng 1 giây sau đập tiếp rồi cứ như vậy đến vô hạn không, dĩ nhiên là không =)). 
 Mà nó sẽ kiểu đập lúc đầu tiên vào 0.59 giây sau khi bắt đầu đo, rồi sau khoảng 1.255 giây gì đó lại đập thêm phát nữa, rồi sau khoảng 0.85 giây lại đập
 tiếp 1 phát nữa. Vầng thật ra nó cũng cho vui thôi chứ thực tế khả năng cũng chả phải 0.85 giây đâu, mà ở ngoài thực tế thì khả năng lại là 0.85861681686186181863861836816813863168618681368.... cũng không chừng, nhưng trên tôi đoán người ta sẽ không đo kỹ như vậy, tầm 0.85 hay 0.858 thôi.
+
+Cho nên nếu như điểm "đo đạc/lấy mẫu" mà ở vị trí trên trục x kiểu nó có những chữ số sau dấu phẩy ",", thì nó sẽ thường sẽ tăng đáng kể số điểm đo đạc, ờ thật ra
+điều này là hiển nhiên.
