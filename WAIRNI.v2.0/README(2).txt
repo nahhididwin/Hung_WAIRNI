@@ -38,7 +38,9 @@ https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p1.png
 Tôi đã lấy hình ảnh đó tại đây : https://en.wikipedia.org/wiki/Pan%E2%80%93Tompkins_algorithm
 
 
-Và hãy xem ảnh (p2.png) này (Do tôi tự làm, nên nguồn sẽ là ở ngay đây) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p2.png
+Và hãy xem ảnh (p2.png) này (Do tôi tự làm, nên nguồn sẽ là ở ngay đây, à thật ra
+thì còn nữa nhưng những ảnh tôi lấy của người ta thì sẽ ghi nguồn, 
+hoặc lấy của người ta đem về sửa lại cũng sẽ ghi nguồn nha) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p2.png
 NÓ LẤY MẪU ĐẾN TẬN 73 CÁI CHO TAM GIÁC ABC (ý tôi là đường tuyến tính ABC, còn cái gạch đen ở dưới là trục x thôi)!!!!
 Vầng, biết vì sao lại như thế không, tại vì tọa độ của điểm C "không được đẹp" (thế nào là không được đẹp, tôi cảm thấy việc
 bản thân mình cứ kiểu sử dụng từ ngữ không khoa học mà thường ngày như này không ổn cho lắm, tôi đoán mình sẽ sửa sau, nhưng
@@ -64,3 +66,6 @@ Vậy cùng nhau quay lại với Tích phân số cơ bản nha, tôi sẽ khô
 Đọc wiki : https://en.wikipedia.org/wiki/Trapezoidal_rule
 Như chúng ta thấy, nó tính diện tích dưới "hình thang" hoặc hiếm lắm thì "hình tam giác" của các điểm (đo đạc/lấy mẫu). Haha các ông thấy gì chưa,
 vì tọa độ của các điểm "đo đạc/lấy mẫu" không đẹp tý nào nên là nó sẽ tăng số lượng các điểm này lên kinh dị. Dẫn đến việc tăng sức nặng cho việc tính toán.
+Để dễ dàng hình dung cho mức độ tăng độ phức tạp tính toán lên đáng kinh ngạc thì hãy so sánh giữa 2 ảnh này :
+Ảnh này có tọa độ của các điểm đẹp nè (p3.png) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p3.png
+Ảnh này có tọa độ của các điểm xấu nè (p2.png) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p2.png
