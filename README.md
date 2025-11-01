@@ -8,7 +8,7 @@ my profile : https://github.com/nahhididwin/inputnothing
 https://github.com/nahhididwin/Hung_WAIRNI/blob/main/LICENSE
 
 # Phiên Bản :
-**Lưu ý: Luôn luôn chọn Phiên bản mới nhất để xem, các phiên bản cũ hơn thường có sai sót nhiều hơn, và chất lượng cũng thường không bằng!**
+**Lưu ý: Luôn luôn chọn Phiên bản mới nhất để xem, các phiên bản cũ hơn thường có sai sót nhiều hơn, và chất lượng cũng thường không bằng! (Trừ khi các phiên bản mới có yêu cầu đọc lại)**
 
 Phiên bản v1.0 (Thử nghiệm) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v1.0/README(1).txt
 
