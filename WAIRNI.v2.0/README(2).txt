@@ -11,6 +11,7 @@ Các Phần Chính :
 2. Khả năng của đạo hàm đối với việc tìm đỉnh với dạng dữ liệu liên quan, sử dụng phương pháp Hung_WAIRNI
 3. AUC (Area under the Curve) bằng Hung_WAIRNI
 4. Bổ sung thêm biên độ, cực trị
+5. Lời kết
 --
 
 --
