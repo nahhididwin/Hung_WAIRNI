@@ -8,7 +8,7 @@ Publication date (DD/MM/YYYY): not this time
 --
 Các Phần Chính :
 1. Vấn đề "chia", bất đối xứng, và kiểu dữ liệu liên quan
-2. Khả năng của đạo hàm đối với việc tìm đỉnh với dạng dữ liệu liên quan.
+2. Khả năng của đạo hàm đối với việc tìm đỉnh với dạng dữ liệu liên quan, sử dụng phương pháp Hung_WAIRNI
 3. AUC (Area under the Curve) bằng Hung_WAIRNI
 4. Bổ sung thêm biên độ, cực trị
 --
@@ -78,6 +78,13 @@ Vậy nó có gì hot? Hãy cùng tính sơ sơ chi phí tính toán của phư�
 - Sau đó lấy tọa độ y của điểm thứ 1 * unit * tọa độ y của điểm thứ 2 = sum_1; Nói chung kiểu cứ lặp lại như vậy rồi cộng các sum_1 lại với nhau là ra diện tích thôi;
 - Tôi đã dùng kinh nghiệm của mình để cho ra 1 cách ước lượng sơ sơ gần đúng cho chi phí tính toán 
 của phương pháp hình thang là như này : "số điểm đo đạc/mẫu" * 3 = tổng chi phí (kiểu số phép tính phải thực hiện, bao gồm cộng/trừ/nhân chia);
+Vậy thì với p2.png thì sẽ mất tầm 73*3 = 219 phép tính cho hình tam giác ABC;
+Còn p3.png thì mất tầm 6*3 = 18 cho tam giác ABC;
+Vầng, tuy là 2 tam giác gần như y hệt nhau nhưng mà thật sự chi phí đã bị đội lên kinh dị =)), mặc dù chỉ là 2 đường "tuyến tính". Thực tế thì nếu là các đường
+phi tuyến (ví dụ như 1 nửa đường tròn của hình tròn ấy) thì gần như chắc chắn "unit" sẽ rất bé, và số điểm đo đạc sẽ lớn hơn nhiều, cho dù là ít nhiễu hay không ít nhiễu hay thậm chí không có nhiễu trong signal, ừ ý tôi là điều này không hiếm. Tức là nếu tưởng tượng tốt thì các ông sẽ thấy rằng chẳng hạn như trong đồ thị hình sin ấy, cho dù là không có nhiễu trong signal thì unit vẫn sẽ rất bé bởi vì có "đường phi tuyến", tức là các đường "tuyến tính" vẫn sẽ phải đối mặt với chi phí tính toán ngang ngửa với "đường phi tuyến". Hoặc cho dù không có đường phi tuyến thì trong dữ liệu vẫn có nguy cơ rất cao đối mặt với vụ "0.858 giây" mà tôi từng đề cập tới ở bên trên kia.
 
-Vậy thì với p2.png thì sẽ mất tầm 73*3 = 219 phép tính;
+Vậy nếu dữ liệu có nhiễu thì sao? 
+Hãy xem p1.png : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p1.png
+Đây là hình ảnh Raw ECG Signal (thật sự nhiều nhiễu) mà thuật toán Pan–Tompkins algorithm được sinh ra để đối mặt với nó. Thực tế thì trong rất nhiều tác vụ trên thực tế đều có nhiễu, nhưng nhiễu thường sẽ có "độ cao trục y" thấp (khả năng vô cùng vô cùng cao, chẳng hạn như nhìn trong ECG đi thì hiểu). Và đúng rồi, thực sự thì hiện nay có rất nhiều phương pháp lọc nhiễu vô cùng tiên tiến. Và hiện nay người ta cũng thường lọc nhiễu trước rồi mới tích phân để tính diện tích bên dưới signal.
+--
 
