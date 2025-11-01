@@ -32,5 +32,7 @@ nếu tần số lấy mẫu (F_s = 1/T_s) đủ lớn.
 trên wikipedia (một định lý được sử dụng trong lĩnh vực lý thuyết thông tin):
 https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_l%E1%BA%A5y_m%E1%BA%ABu_Nyquist%E2%80%93Shannon
 
-
+Và vì dữ liệu đa phần (gần như chắc chắn) đều là "bất đối xứng", và vô cùng nhiều vị trí "lấy mẫu",
+hãy xem hình ảnh này như 1 ví dụ : 
+https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p1.png
 
