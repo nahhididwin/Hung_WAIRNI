@@ -71,3 +71,9 @@ vì tọa độ của các điểm "đo đạc/lấy mẫu" không đẹp tý n�
 Để dễ dàng hình dung cho mức độ tăng độ phức tạp tính toán lên đáng kinh ngạc thì hãy so sánh giữa 2 ảnh này :
 Ảnh này có tọa độ của các điểm đẹp nè (p3.png) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p3.png
 Ảnh này có tọa độ của các điểm xấu nè (p2.png) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p2.png
+
+Vậy nó có gì hot? Hãy cùng tính sơ sơ chi phí tính toán của phương pháp hình thang nhé :
+- Tọa độ của các điểm "đo đạc/mẫu" đã có sẵn rồi, nó trông như này nếu như có 2 điểm đo đạc 1(x_1;y_1);2(x_2;y_2);
+- Chúng ta sẽ lấy tọa độ x của điểm thứ 2 trừ cho tọa độ x của điểm thứ nhất, để ra được số delta_x hoặc unit nếu như toàn bộ tất cả các điểm đo đạc cách đều nhau (thường là như vậy);
+- Sau đó lấy tọa độ y của điểm thứ 1 * unit * tọa độ y của điểm thứ 2 = sum_1; Nói chung kiểu cứ lặp lại như vậy rồi cộng các sum_1 lại với nhau là ra diện tích thôi;
+-
