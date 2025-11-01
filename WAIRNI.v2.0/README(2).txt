@@ -90,6 +90,12 @@ Hãy xem p1.png : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2
 Tóm lại : 
 Vấn đề "chia" là vấn đề kiểu như 0.85 giây mà tôi nói rồi đấy, nó khiến cho số lượng "mẫu/điểm đo đạc" tăng lên kinh khủng.
 Và "kiểu dữ liệu liên quan" mà tôi muốn các bạn nhớ đến nhiều nhất là kiểu dữ liệu bị vấn đề chia, bất đối xứng, và "nhiễu có độ cao trục y thấp", và có 1 đoạn tuyến tính, và có đoạn phi tuyến và nó nằm ở khoảng chỗ "đỉnh" (yes nó kiểu như ECG (QRS) hay đồ thị sin,...), vầng nó vô cùng phổ biến trên thực tế trong nhiều tác vụ hiện nay.
+
+Ví dụ 1 xíu :
+
+Dữ liệu raw data khi chưa lọc thường như này (p1.png) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p1.png
+Sau khi qua bộ lọc thường như này (p99.png) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p99.jpg
+À mà ảnh p99.png tôi lấy tại đây : https://ocaclinic.vn/tin-tuc/hinh-dang-va-co-che-hinh-thanh-cac-song-tren-dien-tam-do
 --
 
 
