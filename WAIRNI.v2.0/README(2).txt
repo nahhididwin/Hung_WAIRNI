@@ -1,4 +1,5 @@
 Hung_WAIRNI: Hưng Wave Analysis, Hung's Interpolation Rule and Đ.Đ.P.Hưng Numerical Integration.
+(Github : https://github.com/nahhididwin/Hung_WAIRNI)
 
 Creator : Đặng Đình Phú Hưng (Dang Dinh Phu Hung, https://github.com/nahhididwin)
 Date of birth (Dang Dinh Phu Hung) (DD/MM/YYYY): 20/06/2011
