@@ -12,7 +12,7 @@ Nhắc lại, project này sử dụng giấy phép này (MIT LICENSE) : https:/
 Các Phần Chính :
 1. Vấn đề "chia", bất đối xứng, và kiểu dữ liệu liên quan
 2. Khả năng của đạo hàm đối với việc tìm đỉnh với dạng dữ liệu liên quan, sử dụng phương pháp Hung_WAIRNI
-3. AUC (Area under the Curve) bằng Hung_WAIRNI
+3. AUS (Area under the Signal) bằng Hung_WAIRNI
 4. Bổ sung thêm biên độ, cực trị
 5. Lời kết
 --
@@ -169,7 +169,7 @@ Haizz, tôi cảm thấy như kiểu O(n) xuống xấp xỉ O(1) vậy á =))))
 
 
 --
-3. AUC (Area under the Curve) bằng Hung_WAIRNI
+3. AUS (Area under the Signal) bằng Hung_WAIRNI
 
 Tôi sẽ sớm bổ sung phần chứng minh lỗi, và công thức tổng quát chính thức,...
 
