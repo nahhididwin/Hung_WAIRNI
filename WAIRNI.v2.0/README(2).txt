@@ -86,5 +86,53 @@ phi tuyến (ví dụ như 1 nửa đường tròn của hình tròn ấy) thì 
 Vậy nếu dữ liệu có nhiễu thì sao? 
 Hãy xem p1.png : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p1.png
 Đây là hình ảnh Raw ECG Signal (thật sự nhiều nhiễu) mà thuật toán Pan–Tompkins algorithm được sinh ra để đối mặt với nó. Thực tế thì trong rất nhiều tác vụ trên thực tế đều có nhiễu, nhưng nhiễu thường sẽ có "độ cao trục y" thấp (khả năng vô cùng vô cùng cao, chẳng hạn như nhìn trong ECG đi thì hiểu). Và đúng rồi, thực sự thì hiện nay có rất nhiều phương pháp lọc nhiễu vô cùng tiên tiến. Và hiện nay người ta cũng thường lọc nhiễu trước rồi mới tích phân để tính diện tích bên dưới signal.
+
+Tóm lại : 
+Vấn đề "chia" là vấn đề kiểu như 0.85 giây mà tôi nói rồi đấy, nó khiến cho số lượng "mẫu/điểm đo đạc" tăng lên kinh khủng.
+Và "kiểu dữ liệu liên quan" mà tôi muốn các bạn nhớ đến nhiều nhất là kiểu dữ liệu bị vấn đề chia, bất đối xứng, và "nhiễu có độ cao trục y thấp", vầng nó vô cùng phổ biến trên thực tế trong nhiều tác vụ hiện nay.
 --
 
+
+--
+2. Khả năng của đạo hàm đối với việc tìm đỉnh với dạng dữ liệu liên quan, sử dụng phương pháp Hung_WAIRNI
+
+Được rồi, vậy thị "đạo hàm" thì liên quan gì chứ? Hãy cùng xem lại ảnh p2.png (https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p2.png).
+Wow, bro thấy tiềm năng gì ko? Nếu như thay vì chúng ta làm thủ công "duyệt" từng điểm "đo đạc/mẫu" từ điểm A trên trục x đến điểm C trên trục x, lý do chính là
+để tính được luôn diện tích bao gồm cả đỉnh B cho nó chuẩn. Ừ vì điểm B bất đối xứng với tam giác ABC cho nên chúng ta không thể xài cách đó là lấy đại 1 điểm ở giữa được. Và nếu làm như vậy rồi tính diện tích thì đúng rồi đấy, nó là phương pháp hình thang của tích phân số, riemann sum cũng na ná thế thôi. Haha, vậy thì chúng ta hãy đạo hàm tại điểm A, rồi đạo hàm tại điểm cách điểm A 30 unit, rồi cứ như vậy thôi, thấy gì chưa!? Nó tiện tay dò ra luôn điểm B với chi phí thấp vô cùng!
+
+Chi tiết hơn về phép tính cho các ông dễ hình dung :
+
+Tọa độ điểm A: (x_A, y_A)
+Tọa độ điểm B: (x_B, y_B)
+Hàm số đường phi tuyến màu xanh : y = f(x)
+(Lưu ý quan trọng, trên thực tế, dữ liệu là dạng các điểm rời rạc, nên lúc đấy chúng ta sẽ "xấp xỉ" đạo hàm! Tôi để hàm số cho dễ hình dung thôi).
+
+Hệ số góc của tiếp tuyến AC tại A(x_A, y_A) là : m_AC = f'(x_A)
+Hệ số góc của tiếp tuyến BC tại B(x_B, y_B) là : m_BC = f'(x_B)
+Phương trình AC : y - y_A = m_AC (x - x_A) => y = f'(x_A)(x - x_A) + y_A
+Phương trình BC : y - y_B = m_BC (x - x_B) => y = f'(x_B)(x - x_B) + y_B
+
+Tại C thì tọa độ y 2 đường thẳng bằng nhau nên :
+f'(x_A)(x_C - x_A) + y_A = f'(x_B)(x_C - x_B) + y_B
+=> f'(x_A)x_C - f'(x_A)x_A + y_A = f'(x_B)x_C - f'(x_B)x_B + y_B
+=> f'(x_A)x_C - f'(x_B)x_C = f'(x_A)x_A - f'(x_B)x_B + y_B - y_A
+=> x_C [f'(x_A) - f'(x_B)] = f'(x_A)x_A - f'(x_B)x_B + y_B - y_A
+
+Công thức cho x_C :
+
+x_C = [f'(x_A)x_A - f'(x_B)x_B + y_B - y_A]/[f'(x_A) - f'(x_B)]
+
+Yes, điều này giả định 2 tiếp tuyến không song song (nếu nó song song thì chúng ta sẽ gọi đây là trường hợp đặc biệt
+và đem đi xử lý riêng nhé, các bạn đủ giỏi để làm mà)
+
+Công thức cho y_C :
+
+y_C = f'(x_A)(x_C - x_A) + y_A
+
+
+
+
+Và đúng rồi đấy, nó mất tầm 18 phép tính thôi =))), thay vì là khoảng 15*3 = 45 nếu Sử dụng tích phân số phương pháp hình thang (À mà cho dù là simpson's rule thì nếu như là đồ thị phi tuyến hay gặp vấn đề "chia" thì cũng chậm hơn Hung_WAIRNI thôi); tức là nhanh hơn khoảng 40%, thực tế nó có thể hơn nữa.
+
+
+--
