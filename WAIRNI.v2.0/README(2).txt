@@ -46,4 +46,5 @@ bản thân mình cứ kiểu sử dụng từ ngữ không khoa học mà thư�
 Cùng nhau tưởng tượng nhé? nếu như có 1 đồ thị có 2 trục x,y. Và ông cũng biết mà, trên máy tính thì sẽ không có đường tuyến tính
 hay là phi tuyến tính gì cả, mà nó sẽ chỉ có các điểm ("mẫu") mà tôi đã nhắc đến ở bên trên kia, để mô phỏng cho mấy cái đường đó.
 Về cơ bản nó trông như này : Điểm 1 (x:1;y:1); Điểm 2 (x:2;y:2). Vầng đó là 1 đường tuyến tính =))), vì chúng ta sẽ nối 2 điểm đó
-lại với nhau.
+lại với nhau. Còn đường phi tuyến, giả sử như đường cong như ở trong đồ thị sin đi nhé? Nó thực chất cũng là kiểu nhiều đường thẳng
+nối lại với nhau để giả cong mà thôi.
