@@ -167,7 +167,7 @@ Nói chứ thật ra nếu các ông xem p99.png thì các ông cũng thấy r�
 
 Vậy nên chúng ta sẽ chuyển sang Tín hiệu dòng điện xoay chiều (AC) và điện áp nhé, vì chúng thường có hình dạng sin.
 Tác vụ: Tính toán các đại lượng vật lý liên quan đến năng lượng (Power), công (Work), điện tích (Charge), hoặc thông lượng (Flux).
-example : Tính năng lượng tiêu thụ $W$ trong một chu kỳ $T$ của dòng điện, được tính bằng tích phân của công suất P(t): W = ∫^(T)_0 P(t)dt. Nếu tín hiệu điện áp v(t) và dòng điện i(t) là dạng sin, công suất P(t) = v(t) * i(t) cũng là một hàm lượng giác, và tích phân số được dùng để tính toán giá trị này từ các mẫu dữ liệu thu thập được.
+example : Tính năng lượng tiêu thụ W trong một chu kỳ T của dòng điện, được tính bằng tích phân của công suất P(t): W = ∫^(T)_0 P(t)dt. Nếu tín hiệu điện áp v(t) và dòng điện i(t) là dạng sin, công suất P(t) = v(t) * i(t) cũng là một hàm lượng giác, và tích phân số được dùng để tính toán giá trị này từ các mẫu dữ liệu thu thập được.
 
 Cơ học/Dao động: Phân tích chuyển động dao động điều hòa (Harmonic Motion) hoặc sóng âm/cơ học.
 Tác vụ: Tính quãng đường dịch chuyển (displacement) từ tín hiệu vận tốc, hoặc tính vận tốc từ tín hiệu gia tốc (gia tốc có thể có dạng sin).
