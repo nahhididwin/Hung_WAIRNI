@@ -115,7 +115,7 @@ Tôi đoán có thể 1 số ông sẽ biết đến cái thứ này : Bộ lọ
 Wow, bro thấy tiềm năng gì ko? Nếu như thay vì chúng ta làm thủ công "duyệt" từng điểm "đo đạc/mẫu" từ điểm A trên trục x đến điểm C trên trục x, lý do chính là
 để tính được luôn diện tích bao gồm cả đỉnh B cho nó chuẩn. Ừ vì điểm B bất đối xứng với tam giác ABC cho nên chúng ta không thể xài cách đó là lấy đại 1 điểm ở giữa được. Và nếu làm như vậy rồi tính diện tích thì đúng rồi đấy, nó là phương pháp hình thang của tích phân số, riemann sum cũng na ná thế thôi. Haha, vậy thì chúng ta hãy đạo hàm tại điểm A, rồi đạo hàm tại điểm cách điểm A 30 unit, rồi cứ như vậy thôi, thấy gì chưa!? Nó tiện tay dò ra luôn điểm B với chi phí thấp vô cùng!
 
-Chi tiết hơn về phép tính cho các ông dễ hình dung :
+Chi tiết hơn về phép tính (để tìm giao điểm của 2 đường tiếp tuyến tạo bởi đạo hàm, à nó không liên quan đến bất kỳ hình nào tôi đưa cho ông nhé, đừng nhầm lẫn!) cho các ông dễ hình dung :
 
 Tọa độ điểm A: (x_A, y_A)
 Tọa độ điểm B: (x_B, y_B)
