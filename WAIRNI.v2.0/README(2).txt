@@ -188,6 +188,12 @@ Tức là nếu là 10000S/s thì 200 mẫu =)).
 
 À quên nói, chỗ tuyến tính (ý là rất gần tuyến tính ấy, ừm tôi đoán ko cần quá lo lắng đâu, vì thực chất việc chuyển từ "sóng sin" ngoài thực tế lên máy tính bằng các điểm rời rạc đã lòi ra 1 đống sai số rồi) thì Hung_WAIRNI, chỗ phi tuyến thì tích phân cổ điển nha.
 
+Haha và để biết chính xác chỗ nào có sóng sin tốt và chỗ nào có sóng hài, đừng tưởng tôi không biết FFT =)), tôi còn biết cả DWT (Biến đổi wavelet rời rạc), CWT,... đấy.
+
+Đọc Fast Fourier Transform (FFT) tại đây nha : https://en.wikipedia.org/wiki/Fast_Fourier_transform
+
+Nói chung thì để biết chính xác chỗ nào có sóng sin tốt và chỗ nào có sóng hài, chắc chúng ta sẽ xài FFT :v.
+
 .... còn tiếp ....
 
 --
