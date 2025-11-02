@@ -183,6 +183,8 @@ Tức là nếu là 10000S/s thì 200 mẫu =)).
 
  Yên tâm đi, sóng sin chiếm tới hơn 98% lận, còn 2% chúng ta sẽ tìm cách sử lý bằng thuật toán riêng hoặc gì chăng?
 
+À quên nói, chỗ tuyến tính thì Hung_WAIRNI, chỗ phi tuyến thì tích phân cổ điển nha.
+
 .... còn tiếp ....
 
 --
