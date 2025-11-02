@@ -163,6 +163,26 @@ Bằng cách nào đó thì tôi linh cảm rằng 1 số ông sẽ bảo tôi k
 
 Haizz, tôi cảm thấy như kiểu O(n) xuống xấp xỉ O(1) vậy á =))))). Kiểu các ông để ý thì ở phần tuyến tính thì nó sẽ kiểu từ O(n) -> xấp xỉ O(1), còn phần phi tuyến tính thì nó sẽ tương đương với các phương pháp tích phân số cổ điển hiện nay thôi :3.
 
+Nói chứ thật ra nếu các ông xem p99.png thì các ông cũng thấy rằng Hung_WAIRNI vẫn chưa đủ mạnh để thay thế Tích phân số, vì tuy là nó là dữ liệu đã rất ngon rồi, nhưng mà khi để ý kỹ lại thì, ở phần sóng Q ấy, đấy, nó nhỏ vãi, hiểu ý tôi rồi đó, chúng ta cần 1 cái dạng signal mà nó vừa phải lấy mẫu nhiều trên đường tuyến tính và đường tuyến tính cũng cần phải trải kha khá dài nữa =))).
+
+Vậy nên chúng ta sẽ chuyển sang Tín hiệu dòng điện xoay chiều (AC) và điện áp nhé, vì chúng thường có hình dạng sin.
+Tác vụ: Tính toán các đại lượng vật lý liên quan đến năng lượng (Power), công (Work), điện tích (Charge), hoặc thông lượng (Flux).
+example : Tính năng lượng tiêu thụ $W$ trong một chu kỳ $T$ của dòng điện, được tính bằng tích phân của công suất P(t): W = ∫^(T)_0 P(t)dt. Nếu tín hiệu điện áp v(t) và dòng điện i(t) là dạng sin, công suất P(t) = v(t) * i(t) cũng là một hàm lượng giác, và tích phân số được dùng để tính toán giá trị này từ các mẫu dữ liệu thu thập được.
+
+Cơ học/Dao động: Phân tích chuyển động dao động điều hòa (Harmonic Motion) hoặc sóng âm/cơ học.
+Tác vụ: Tính quãng đường dịch chuyển (displacement) từ tín hiệu vận tốc, hoặc tính vận tốc từ tín hiệu gia tốc (gia tốc có thể có dạng sin).
+Trong thực tế, tín hiệu được thu thập (bằng bộ chuyển đổi A/D) dưới dạng các mẫu rời rạc tại các thời điểm lấy mẫu nhất định.
+Tích phân giải tích (Analytical Integration) chỉ có thể áp dụng nếu ta có công thức hàm x(t) chính xác. Nhưng với dữ liệu rời rạc, cách duy nhất để tính diện tích dưới đường cong là dùng các phương pháp tích phân số (hình thang, Simpson, v.v.).
+
+Tần số Tín hiệu Thường gặp (f) : 50Hz ở Việt nam hoặc 60hz =).
+Theo Định lý Nyquist, F_s phải lớn hơn 2f Tức là lớn hơn 100 mẫu/giây =)).
+Mức Thực tế (Cho độ Chính xác Tích phân): Các thiết bị đo lường chất lượng điện năng thường chọn F_s là bội số của f và rất cao để đảm bảo độ chính xác của phép tính tích phân số và khả năng phân tích sóng hài. Phổ biến là 6.4 kS/s (kilo-mẫu/giây), 10 kS/s hoặc cao hơn, idk.
+Số Mẫu Trên 1 Chu kỳ (1 Lần "Lên Xuống")?
+Số mẫu trong một lần "lên xuống" (một chu kỳ T) được tính bằng : N = F_s/f.
+Tức là nếu là 10000S/s thì 200 mẫu =)).
+
+ 
+
 .... còn tiếp ....
 
 --
