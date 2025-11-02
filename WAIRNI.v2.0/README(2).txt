@@ -104,7 +104,7 @@ Dữ liệu raw data khi chưa lọc thường như này (p1.png) : https://gith
 Sau khi qua bộ lọc thường như này (p99.jpg) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p99.jpg
 À mà ảnh p99.jpg tôi lấy tại đây : https://ocaclinic.vn/tin-tuc/hinh-dang-va-co-che-hinh-thanh-cac-song-tren-dien-tam-do
 
-Tôi đoán có thể 1 số ông sẽ biết đến cái thứ này : Bộ lọc Savitzky-Golay
+Tôi đoán có thể 1 số ông sẽ biết đến cái thứ này : Bộ lọc Savitzky-Golay, Band-pass filter, Low-pass filter, High-pass filter, Notch filter, Adaptive Filter, Wavelet Transform, Phân tích thành phần độc lập (ICA),...
 --
 
 
