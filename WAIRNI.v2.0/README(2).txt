@@ -194,6 +194,8 @@ Haha và để biết chính xác chỗ nào có sóng sin tốt và chỗ nào 
 
 Nói chung thì để biết chính xác chỗ nào có sóng sin tốt và chỗ nào có sóng hài, chắc chúng ta sẽ xài FFT :v.
 
+Vầng, tôi còn để ý rằng phương pháp tích phân số này ngon vãi ra cho Triangular Wave (sóng tam giác), và cả sóng kiểu nhìn như hình vuông nữa, nhưng mà tôi gà quá nên chưa biết nó để làm gì, chắc sau này tôi sẽ xem thêm.
+
 .... còn tiếp ....
 
 --
