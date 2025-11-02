@@ -166,6 +166,9 @@ Haizz, tôi cảm thấy như kiểu O(n) xuống xấp xỉ O(1) vậy á =))))
 Nói chứ thật ra nếu các ông xem p99.png thì các ông cũng thấy rằng Hung_WAIRNI vẫn chưa đủ mạnh để thay thế Tích phân số, vì tuy là nó là dữ liệu đã rất ngon rồi, nhưng mà khi để ý kỹ lại thì, ở phần sóng Q ấy, đấy, nó nhỏ vãi, hiểu ý tôi rồi đó, chúng ta cần 1 cái dạng signal mà nó vừa phải lấy mẫu nhiều trên đường tuyến tính và đường tuyến tính cũng cần phải trải kha khá dài nữa =))).
 
 Vậy nên chúng ta sẽ chuyển sang Tín hiệu dòng điện xoay chiều (AC) và điện áp nhé, vì chúng thường có hình dạng sin.
+
+Do tôi yêu wikipedia nên tôi sẽ để ở đây (Điện xoay chiều) : https://vi.wikipedia.org/wiki/%C4%90i%E1%BB%87n_xoay_chi%E1%BB%81u
+
 Tác vụ: Tính toán các đại lượng vật lý liên quan đến năng lượng (Power), công (Work), điện tích (Charge), hoặc thông lượng (Flux).
 example : Tính năng lượng tiêu thụ W trong một chu kỳ T của dòng điện, được tính bằng tích phân của công suất P(t): W = ∫^(T)_0 P(t)dt. Nếu tín hiệu điện áp v(t) và dòng điện i(t) là dạng sin, công suất P(t) = v(t) * i(t) cũng là một hàm lượng giác, và tích phân số được dùng để tính toán giá trị này từ các mẫu dữ liệu thu thập được.
 
