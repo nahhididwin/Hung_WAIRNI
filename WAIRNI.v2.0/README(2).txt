@@ -196,6 +196,20 @@ Nói chung thì để biết chính xác chỗ nào có sóng sin tốt và ch�
 
 Vầng, tôi còn để ý rằng phương pháp tích phân số này ngon vãi ra cho Triangular Wave (sóng tam giác), và cả sóng kiểu nhìn như hình vuông nữa, nhưng mà tôi gà quá nên chưa biết nó để làm gì, chắc sau này tôi sẽ xem thêm.
 
+Tôi nói thêm nha :
+
+Phổ biến nhất: Sóng Sin chuẩn có Méo Hài (Harmonic Distortion)
+
+Hầu hết điện năng từ máy phát điện và điện lưới được thiết kế để tạo ra dạng sóng sin chuẩn (Pure Sine Wave) vì nó là dạng sóng hiệu quả và ít gây căng thẳng nhất cho thiết bị (động cơ, máy biến áp...).
+
+Tuy nhiên, do các yếu tố như tải phi tuyến tính (máy tính, đèn LED, bộ nguồn chuyển mạch...), máy biến áp không lý tưởng, và các điều kiện thực tế khác, dạng sóng thực tế thường bị méo mó (Distorted) một chút. Mức độ méo này được gọi là Tổng méo hài (THD).
+
+Dù bị méo, dạng sóng này vẫn rất gần với sóng sin lý tưởng (THD thấp), nó cong mượt ở cả phần đỉnh/đáy và phần thân, không có đoạn nào thẳng hoàn toàn =))).
+
+Trong nhiều ứng dụng kỹ thuật, sai số giữa đường cong sin chuẩn và đường thẳng xấp xỉ ở phần thân (gần điểm 0) là chấp nhận được
+
+Bạn hoàn toàn có thể xấp xỉ tuyến tính phần thân của sóng sin chuẩn. Sai số này được chấp nhận rộng rãi :3.
+
 .... còn tiếp ....
 
 --
