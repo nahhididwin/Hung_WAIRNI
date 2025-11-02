@@ -161,7 +161,7 @@ Biết sao tôi để thêm cái điểm B'' và điểm B' không =))? Giờ h�
 Bằng cách nào đó thì tôi linh cảm rằng 1 số ông sẽ bảo tôi ko biết cái cầu phương của gauss nào đó cho tích phân số =))) "https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_quadrature", vãi thật, trong thực tế thì "các điểm mẫu/đo đạc" cách đều nhau, thậm chí là méo cách đều nhau (nhưng ko có trúng cái điểm mà gauss cần đâu) cơ =))). Ko xài đc đâu, ngon thì ngon thật nhưng thực tế vẫn là thực tế =)), hèn gì phương pháp hình thang/simpson's rule phổ biến vãi :3.
 
 
-Haizz, tôi cảm thấy như kiểu O(n) xuống xấp xỉ O(1) vậy á =))))).
+Haizz, tôi cảm thấy như kiểu O(n) xuống xấp xỉ O(1) vậy á =))))). Kiểu các ông để ý thì ở phần tuyến tính thì nó sẽ kiểu từ O(n) -> xấp xỉ O(1), còn phần phi tuyến tính thì nó sẽ tương đương với các phương pháp tích phân số cổ điển hiện nay thôi :3.
 
 .... còn tiếp ....
 
