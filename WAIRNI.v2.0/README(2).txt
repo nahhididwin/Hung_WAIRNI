@@ -184,7 +184,7 @@ Số Mẫu Trên 1 Chu kỳ (1 Lần "Lên Xuống")?
 Số mẫu trong một lần "lên xuống" (một chu kỳ T) được tính bằng : N = F_s/f.
 Tức là nếu là 10000S/s thì 200 mẫu =)).
 
- Yên tâm đi, sóng sin chiếm tới hơn 98% lận, còn 2% chúng ta sẽ tìm cách sử lý bằng thuật toán riêng hoặc gì chăng?
+ Yên tâm đi, sóng sin chiếm tới hơn 90% lận, còn 2% chúng ta sẽ tìm cách sử lý bằng thuật toán riêng hoặc gì chăng?
 
 À quên nói, chỗ tuyến tính (ý là rất gần tuyến tính ấy, ừm tôi đoán ko cần quá lo lắng đâu, vì thực chất việc chuyển từ "sóng sin" ngoài thực tế lên máy tính bằng các điểm rời rạc đã lòi ra 1 đống sai số rồi) thì Hung_WAIRNI, chỗ phi tuyến thì tích phân cổ điển nha.
 
