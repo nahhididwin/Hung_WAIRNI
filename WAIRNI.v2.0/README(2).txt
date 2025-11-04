@@ -220,6 +220,8 @@ Như bro có thể thấy, nó thật sự kha khá giống sóng sin đó, như
 
 Vầng, và có lẽ chúng ta sẽ tập trung vào việc xấp xỉ diện tích của nó ở phần tuyến tính, bro hiểu sơ sơ ý tôi rồi đó. Và chúng ta tiện thể sẽ làm thêm quả "giao điểm của 2 đường tiếp tuyến tạo bởi đạo hàm xấp xỉ 1 cách hợp lý" yes, giao điểm của nó sẽ có tọa độ x;y, chúng ta chỉ lấy tọa độ x thôi, rồi chúng ta check chính xác dữ liệu thực tế xem điểm rời rạc nào gần nhất với điểm đã "nội suy/ngoại suy" đó. YESSS, thay vì phải tìm kiếm tuyến tính từng điểm rời rạc một (chi phí tìm kiếm = chi phí cho các phép toán so sánh = chi phép các phép cộng; yea nó cũng tương đương nhau), tức là O(n) -> ~O(1).
 
+Với cả, việc "đạo hàm" trên phần "thân" của sóng sin ấy, kiểu phần gần chỗ OV ấy, trời đụ, khi số lượng mẫu -> vô hạn, nó GẦN NHƯ ĐÉO THAY ĐỔI HAY THÊM NHIỄU, còn ở đỉnh thì nhiễu nhiều vc, heheeh, tiện vc =))), quá thuận lợi, quá ngon.
+
 
 .... còn tiếp ....
 
