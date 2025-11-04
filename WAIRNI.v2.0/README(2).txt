@@ -210,6 +210,17 @@ Trong nhiều ứng dụng kỹ thuật, sai số giữa đường cong sin chu�
 
 Bạn hoàn toàn có thể xấp xỉ tuyến tính phần thân của sóng sin chuẩn. Sai số này được chấp nhận rộng rãi :3.
 
+Thôi, nói chung thì tôi nhận ra rằng dữ liệu thực tế và dữ liệu trên lý thuyết khác nhau vãi nhót =)). Nên chúng ta sẽ tập trung vào thứ phổ biến nha. Hm... theo tiêu chuẩn phổ biến tôi thấy thì Tổng độ méo hài (THD) sẽ là tầm ~5%. Vầng, nếu THD quá cao thì sẽ không được cho phép nha. Và đây là tiêu chuẩn quốc tế IEEE 519 nha, đọc : https://www.elspec-ltd.com/ieee-519-2014-standard-for-harmonics/
+
+Đồng thời, chúng ta sẽ lấy 1 cái dữ liệu thực tế ra nhé, cùng xem ảnh p98.png (https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p98.png) nhé. Ảnh này tôi lấy tại đây : https://www.elspec-ltd.com/ieee-519-2014-standard-for-harmonics/
+
+Như bro có thể thấy, nó thật sự kha khá giống sóng sin đó, nhưng mà đã bị biến dạng cũng cũng kha khá rồi. Đồng thời nó đã lộ rõ điều này (phổ biến trong dữ liệu thực tế) :
++ Nó lấy RẤT NHIỀU MẪU (điểm đo đạc/mẫu) ở các vị trí "cong" (phi tuyến) lẫn "thẳng" (tuyến tính).
++ Và đỉnh của nó, vị trí của nó đã bị bất đối xứng
+
+Vầng, và có lẽ chúng ta sẽ tập trung vào việc xấp xỉ diện tích của nó ở phần tuyến tính, bro hiểu sơ sơ ý tôi rồi đó. Và chúng ta tiện thể sẽ làm thêm quả "giao điểm của 2 đường tiếp tuyến tạo bởi đạo hàm xấp xỉ 1 cách hợp lý" yes, giao điểm của nó sẽ có tọa độ x;y, chúng ta chỉ lấy tọa độ x thôi, rồi chúng ta check chính xác dữ liệu thực tế xem điểm rời rạc nào gần nhất với điểm đã "nội suy/ngoại suy" đó. YESSS, thay vì phải tìm kiếm tuyến tính từng điểm rời rạc một (chi phí tìm kiếm = chi phí cho các phép toán so sánh = chi phép các phép cộng; yea nó cũng tương đương nhau), tức là O(n) -> ~O(1).
+
+
 .... còn tiếp ....
 
 --
