@@ -222,6 +222,8 @@ Vầng, và có lẽ chúng ta sẽ tập trung vào việc xấp xỉ diện t�
 
 Với cả, việc "đạo hàm" trên phần "thân" của sóng sin ấy, kiểu phần gần chỗ OV ấy, trời đụ, khi số lượng mẫu -> vô hạn, nó GẦN NHƯ ĐÉO THAY ĐỔI HAY THÊM NHIỄU, còn ở đỉnh thì nhiễu nhiều vc, heheeh, tiện vc =))), quá thuận lợi, quá ngon.
 
+Tức là chúng ta tốn khoảng ~17 phép tính toán (cộng/trừ/nhân/chia) nhưng đã TÌM ĐƯỢC ĐỈNH của 0.5 chu kỳ sóng sin rồi, thay vì phải Linear Search hết 200 điểm, vầng có thể là cả hơn 1000 điểm bởi vì ông biết mà, số mẫu càng lớn thì càng căng, chẳng hạn như trong p98.png ấy. Vầng hiện nay người ta vẫn đang Linear Search để tìm được đỉnh của sóng sin (0.5 chu kỳ sóng sin) :3, và tôi 1 công đôi việc, vừa tìm đỉnh, vừa đi tính tích phân, yes sau khi ~17 phép tính chúng ta thêm 1 số phép tính con phụ để tính diện tích phần "gần như tuyến tính". Còn phần "phi tuyến rõ rệt ở đỉnh" thì các ông biết phải làm gì rồi mà.
+
 
 .... còn tiếp ....
 
