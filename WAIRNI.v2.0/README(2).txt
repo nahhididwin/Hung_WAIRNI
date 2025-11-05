@@ -231,6 +231,8 @@ Um, tức là khoảng O(1) + O(k), k (tức là khúc ở quanh đỉnh của 0
 Có 1 điều khá là hay ho, tôi cũng muốn show cho các ông xem luôn, hãy xem ảnh (p97.png) (https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/p97.png).
 Đây là 1 phần của sóng sin của tín hiệu điện xoay chiều AC đã bị biến dạng do kiểu "sóng hài nhẹ". Giờ chúng ta có b1, b2. Như bạn đã thấy, phần "thân phải" của sóng sin có khoảng cách giữa b1, b2 là delta_x -> 0 (ờ, trong ảnh thì nó trông như cách nhau 1 khoảng nhỏ vậy, ko giống delta_x -> 0, xin lỗi, các bạn cứ coi như "-> 0" nhé, tại vẽ vậy cho dễ nhìn ấy mà), và vì "thân phải" về cơ bản là gần như rất "mượt", cho nên phương pháp delta_x -> 0 vẫn bám vào được thân sóng sin ngon lành. Nhưng mà hãy xem a1, a2 đi, đó bạn thấy rồi đó chúng cách nhau delta_x -> 0, và do là "thân trái" bị cong nhẹ vào trong 1 xíu, khiến cho nó đã lệch ra khỏi phần thân, ko bám vào nữa. Nhưng hãy xem a'1, a'2 đi, đấy, nó không cách nhau 1 khoảng delta_x -> 0, mà nó cách 1 khoảng kha khá xa, và nó bám tốt hơn nhiều vào thân. Vì sao chúng ta ko cho nó bám thẳng vào "đỉnh"? Ừ, nó rủi ro vãi, vì chúng ta còn đang đi tìm đỉnh mà, nếu giờ cứ lấy đại điểm ở "giữa giữa" thì rất dễ ăn cám, nên chúng ta sẽ cho nó 1 khoảng an toàn, đủ xa và đủ gần. Nên không phải cứ delta_x -> 0 là ngon =).
 
+Tới giờ khi tự đọc lại, tôi thấy cứ ảo ảo, kiểu thay vì tôi check khi nào đạo hàm = 0 rồi có đó là đỉnh ~O(n), tôi lại lấy 2 đạo hàm, vẽ đường cát tuyến/tiếp tuyến (secant/tangent line) rồi lại nội suy/ngoại suy ra "tọa độ x" của đỉnh, rồi lại còn linear search trong khoảng "k" xung quanh chỗ khả nghi ở xung quanh đỉnh =))), với cả ko bt tôi đã lấy bao nhiêu tài liệu nhét vào trong cái project này rồi.
+
 
 .... còn tiếp ....
 
