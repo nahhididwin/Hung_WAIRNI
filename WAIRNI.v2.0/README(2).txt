@@ -233,6 +233,7 @@ Có 1 điều khá là hay ho, tôi cũng muốn show cho các ông xem luôn, h
 
 Tới giờ khi tự đọc lại, tôi thấy cứ ảo ảo, kiểu thay vì tôi check khi nào đạo hàm = 0 rồi có đó là đỉnh ~O(n), tôi lại lấy 2 đạo hàm, vẽ đường cát tuyến/tiếp tuyến (secant/tangent line) rồi lại nội suy/ngoại suy ra "tọa độ x" của đỉnh, rồi lại còn linear search trong khoảng "k" xung quanh chỗ khả nghi ở xung quanh đỉnh =))), với cả ko bt tôi đã lấy bao nhiêu tài liệu nhét vào trong cái project này rồi. Uầy, tôi đang muốn chèn thêm "Langlands Program" cái gì mà "The Fundamental Lemma" vào đây của ông Giáo Sư Ngô Bảo Châu, nhưng mà tới giờ vẫn chưa biết nên chèn vào như nào, khả năng là không có gì liên quan để chèn vào, thật ra tôi thích việc chèn nhiều công cụ vào 1 project, như kiểu cầm dao mổ châu đi mổ gà vậy, nó sướng vãi, và bonus thêm kha khá ý tưởng mới cho việc kết hợp mấy cái thứ đó lại.
 
+Fun fact : Nếu sử dụng Zero-Crossing Detector (ZCD), thì Hung_WAIRNI đạt độ chính xác trong việc tìm đỉnh ~100% (PHD <= 8%, điện xoay chiều AC).
 
 .... còn tiếp ....
 
