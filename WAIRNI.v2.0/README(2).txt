@@ -257,6 +257,5 @@ Cảm ơn vì đã đọc. Nó có thể có sai sót, nhưng tôi đã luôn c�
 Hiếm khi lại có dự án khiến tôi hào hứng và khiến tôi bị "vắt cực khô" não như
 cái project này =))).
 Nếu bạn thấy nó hay và học được điều gì hoặc ứng dụng nó, nếu có thể bạn có thể
-ghi tên tôi vào phần danh sách những người đóng góp hoặc không, nhưng bạn sẽ không thể phủ nhận việc
-bạn đã sử dụng ý tưởng của tôi nếu tôi bảo bạn sử dụng ý tưởng của tôi.
+ghi tên tôi vào phần danh sách những người đóng góp hoặc không.
 --
