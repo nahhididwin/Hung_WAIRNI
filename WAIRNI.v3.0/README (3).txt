@@ -103,6 +103,10 @@ The largest change near 0 V is usually the change in slope (rate of change), but
 
 I guess, you should read more about these: Savitzky-Golay filter, Band-pass filter, Low-pass filter, High-pass filter, Notch filter, Adaptive Filter, Wavelet Transform, Fourier Transform,...
 
+Practical Level (For Integral Accuracy): Power quality measurement instruments typically select F_s as a multiple of f and very high to ensure the accuracy of numerical integration and harmonic analysis. Common are 6.4 kS/s (kilo-samples/second), 10 kS/s or higher...
+
+Number of Samples Per 1 Sine Wave Cycle:
+That means if it is 10000S/s then 200 samples =)) (This level is quite common).
 
 
 --
@@ -119,6 +123,60 @@ Maximum negative peak: Occurs in the negative half cycle (negative semi-cycle).
 Determining the peak (maximum) value of an AC sine wave is necessary and has many important purposes:
 For example: Designing a rectifier (converting AC to DC) requires knowing the peak voltage to calculate the output DC voltage. Measurement and Control,
 Fault Analysis and Diagnosis,...
+
+See image (p1.png) (https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v3.0/p1.png), I got that image here: https://www.researchgate.net/figure/Output-waveform-of-a-pure-sine-wave-inverter_fig2_341867445, I brought it here and edited it.
+This is a pure sine wave, so it's theoretical, but I'm showing you, just like, just think of it as a general form.
+
+We choose point "a" to lie on the "body" of half a sine wave cycle.
+(in this case a1,a2,a3,a4)
+Calculate the approximate "derivative" of 2 points a1, a2. And approximate the derivative of 2 points a3, a4. To get 2 secant lines (a12; a34).
+We give the distance between 2 points a (in this case a1, a2) to calculate the derivative as "far enough" and "close enough", that is, not too far so that it reaches the "peak" of the sine wave and goes further. And not too close (especially absolutely not like the derivative, because if the distance between 2 points "a" is delta_x -> 0 or delta_x is close, it will easily fail against noise)
+Similar to a4,a3.
+The intersection of the two secant lines is point x (in this case x1, note: I didn't draw it in image p1.png), and the coordinates of point x1 are the "predicted coordinates" for the "peak" of half a sine wave cycle. Then we check which "discrete point "sampled" from the actual data" is closest to that point, call it point "b", in this case "b1". 
+But because of the "harmonics" and many factors, it is easy to "skew". So we have interval k, which is a small interval around point "b" (in this case b1). Do a linear search in interval k. And interval N is the interval that contains the entire half of the sine wave period.
+And k is much smaller than N.
+Do the same with the remaining sine wave cycles.
+
+
+An example of how to calculate it (instead of discrete points, it's a function, for easier visualization):
+
+(In reality, the data is in the form of discrete points, not functions!)
+
+(Note: The "variables" in the calculation below are not the "variables" recorded in image p1.png, it is for illustration purposes only)
+
+Oh, by the way, in the calculation below we are calculating the derivative, in reality we do something similar to the derivative but on a much longer secant line.
+
+Coordinates of point A: (x_A, y_A)
+Coordinates of point B: (x_B, y_B)
+
+Blue nonlinear function: y = f(x)
+Please do not confuse: f'(x) is the symbol for the derivative! Not f(x), the symbol for the function!
+
+The slope of the tangent line AC at A(x_A, y_A) is: m_AC = f'(x_A)
+The slope of the tangent line BC at B(x_B, y_B) is: m_BC = f'(x_B)
+AC equation: y - y_A = m_AC (x - x_A) => y = f'(x_A)(x - x_A) + y_A
+BC equation: y - y_B = m_BC (x - x_B) => y = f'(x_B)(x - x_B) + y_B
+
+At C, the y coordinates of the two lines are equal, so:
+f'(x_A)(x_C - x_A) + y_A = f'(x_B)(x_C - x_B) + y_B
+=> f'(x_A)x_C - f'(x_A)x_A + y_A = f'(x_B)x_C - f'(x_B)x_B + y_B
+=> f'(x_A)x_C - f'(x_B)x_C = f'(x_A)x_A - f'(x_B)x_B + y_B - y_A
+=> x_C [f'(x_A) - f'(x_B)] = f'(x_A)x_A - f'(x_B)x_B + y_B - y_A
+
+Formula for x_C :
+
+x_C = [f'(x_A)x_A - f'(x_B)x_B + y_B - y_A]/[f'(x_A) - f'(x_B)]
+Yes, this assumes the 2 secant lines are not parallel (if they are, we will call this a special case
+and handle it separately, you guys are good enough to do it)
+
+Formula for y_C :
+
+y_C = f'(x_A)(x_C - x_A) + y_A
+
+It takes about 16 to 18 calculations.
+
+With linear search (the current, very popular method) of an interval N, i.e. O(N) complexity, for each discrete point the computational burden is usually equivalent to an addition or comparison. That is, with a discrete "sampling" frequency of 200 (quite common) per cycle, we will need approximately 200 comparisons/additions.
+And Hung_WAIRNI only takes about O(1) + O(k).
 
 
 
