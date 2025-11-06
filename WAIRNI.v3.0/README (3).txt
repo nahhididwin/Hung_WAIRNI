@@ -82,4 +82,15 @@ Nyquist–Shannon Theorem :
 on wikipedia (a theorem used in the field of information theory):
 https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_l%E1%BA%A5y_m%E1%BA%ABu_Nyquist%E2%80%93Shannon
 
+==> Yes, this is similar to an alternating current (AC) signal.
+
+And the real data is mostly (almost certainly) "asymmetric", and has a lot of "sampling" locations.
+Imagine: Has your heart ever had a beat exactly 1 second after an ECG, and then exactly 1 second later it beats again, and so on for the rest of your life?
+Almost certainly not, the obvious truth. Well, that's why in real data the "measured/discrete/sampled/..." points will have coordinates on the x-axis (maybe time axis,...) that look like this: x = 1.259.
+And so that... the "sampling" points are evenly spaced?
+Then there would have to be a lot of sampling points!
+And this is also quite related to Numerical Integration, when to calculate very accurately the area of ​​a shape with "curved" (nonlinear) sides (such as "1 half" of a circle), when using "Trapezoid Method, Riemann Sum,..." we need to have a lot of EQUALLY SPACED discrete points.
+
+
+
 --
