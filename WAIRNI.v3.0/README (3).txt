@@ -91,6 +91,9 @@ And so that... the "sampling" points are evenly spaced?
 Then there would have to be a lot of sampling points!
 And this is also quite related to Numerical Integration, when to calculate very accurately the area of ​​a shape with "curved" (nonlinear) sides (such as "1 half" of a circle), when using "Trapezoid Method, Riemann Sum,..." we need to have a lot of EQUALLY SPACED discrete points.
 
+Suppose there is a linear line AB in a signal, created by 3 discrete points A, B, C connected together. And the coordinates of point A are (x:1;y:1); coordinates of point B are (x:2;y:2); C(x:3;y:2). And there will only need 3 measurement points spaced 1 unit apart (it can be seconds, minutes or something, but we will call it unit). Simply put, the word "unit" is a word I came up with to indicate the smallest distance between 2 points in the signal, for example, in the signal there are 3 points, point 1 is 1 second from point 2, point 2 is 0.5 seconds from point 3, so 1 unit will equal 0.5 seconds for the entire signal. Well, since the "sampling" points will be evenly spaced (I stated that above), the distance between two consecutive points in the signal will all be units.
+
+
 
 
 --
