@@ -8,6 +8,8 @@ Publication date (DD/MM/YYYY): 01/11/2025
 
 Nhắc lại, project này sử dụng giấy phép này (MIT LICENSE) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/LICENSE
 
+CẢNH BÁO : ĐÂY LÀ PHIÊN BẢN CŨ (v2.0) ĐÃ ĐƯỢC PHÁT HIỆN CÓ NHIỀU VẤN ĐỀ SAI, VUI LÒNG CẨN THẬN VÀ CHÚ Ý!
+
 --
 Các Phần Chính :
 1. Vấn đề "chia", bất đối xứng, và kiểu dữ liệu liên quan
