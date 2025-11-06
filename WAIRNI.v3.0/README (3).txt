@@ -112,4 +112,14 @@ I guess, you should read more about these: Savitzky-Golay filter, Band-pass filt
 --
 3. Find "peak" with Hung_WAIRNI
 
+The "peak" of half a sine wave cycle is the maximum amplitude value (Peak Amplitude) of the AC voltage or current signal.
+In one complete sine wave cycle (one period), there are two peaks:
+Maximum positive peak: Occurs in the positive half cycle (positive semi-cycle).
+Maximum negative peak: Occurs in the negative half cycle (negative semi-cycle).
+Determining the peak (maximum) value of an AC sine wave is necessary and has many important purposes:
+For example: Designing a rectifier (converting AC to DC) requires knowing the peak voltage to calculate the output DC voltage. Measurement and Control,
+Fault Analysis and Diagnosis,...
+
+
+
 --
