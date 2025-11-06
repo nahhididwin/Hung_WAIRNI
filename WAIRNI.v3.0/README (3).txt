@@ -34,4 +34,9 @@ A method called "Hung_WAIRNI", is a numerical integration method, a peak finding
 --
 2. Important things
 
+
+The IEEE standard (519) is an international standard, very popular, almost mandatory, and it is the standard for "harmonics" for AC electrical signals.
+IEEE 519 : https://www.elspec-ltd.com/ieee-519-2014-standard-for-harmonics/
+
+
 --
