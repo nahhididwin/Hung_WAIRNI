@@ -70,5 +70,16 @@ When two waves are added together, if they are both near 0, their sum will also 
 The largest change near 0 V is usually the change in slope (rate of change), but because the harmonic amplitude is low (<= 8%), this change in slope is not too severe, resulting in the wave shape here still retaining the same "steepness" as the fundamental sine wave.
 
 
+The process of converting continuous signals (waves from the environment) into digital signals on a computer is called digitization, includes two main steps:
+Sampling and Quantization.
+Equal spacing: In most common applications (such as audio, image, video, conventional radio signal processing, sensor measurement...),
+analog-to-digital converters (ADC) will sample the signal at fixed intervals, called the sampling period (T_s).
+Easy Calculation and Recovery: Equally spaced sampling makes digital signal processing (DSP) later becomes much simpler and more efficient.
+More importantly, it allows to recover the original analog signal as accurately as possible (within the limits of Nyquist–Shannon Theorem)
+if the sampling frequency (F_s = 1/T_s) is large enough.
+
+Nyquist–Shannon Theorem :
+on wikipedia (a theorem used in the field of information theory):
+https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_l%E1%BA%A5y_m%E1%BA%ABu_Nyquist%E2%80%93Shannon
 
 --
