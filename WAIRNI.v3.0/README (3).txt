@@ -106,3 +106,10 @@ I guess, you should read more about these: Savitzky-Golay filter, Band-pass filt
 
 
 --
+
+
+
+--
+3. Find "peak" with Hung_WAIRNI
+
+--
