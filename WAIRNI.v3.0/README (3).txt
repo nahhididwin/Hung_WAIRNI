@@ -2,6 +2,7 @@ Project : Hung_WAIRNI method
 (GitHub : https://github.com/nahhididwin/Hung_WAIRNI)
 
 Creator : Đặng Đình Phú Hưng (Dang Dinh Phu Hung, https://github.com/nahhididwin)
+Author's country: Vietnam
 Date of birth (Dang Dinh Phu Hung) (DD/MM/YYYY): 20/06/2011
 Languages ​​used: English.
 Publication date (DD/MM/YYYY): 
