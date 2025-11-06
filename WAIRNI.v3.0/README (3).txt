@@ -101,6 +101,7 @@ In-phase at 0 V: Both the fundamental sine wave and all odd harmonics (1st, 3rd,
 When two waves are added together, if they are both near 0, their sum will also be very close to 0. This causes the zero-crossing of the distorted wave to still closely match the ideal sine wave, leaving the near 0 V portion of the wave less affected in amplitude.
 The largest change near 0 V is usually the change in slope (rate of change), but because the harmonic amplitude is low (<= 8%), this change in slope is not too severe, resulting in the wave shape here still retaining the same "steepness" as the fundamental sine wave.
 
+I guess, you should read more about these: Bộ lọc Savitzky-Golay, Band-pass filter, Low-pass filter, High-pass filter, Notch filter, Adaptive Filter, Wavelet Transform, Fourier Transform,...
 
 
 
