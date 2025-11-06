@@ -37,7 +37,7 @@ A method called "Hung_WAIRNI", is a numerical integration method, a peak finding
 
 The IEEE standard (519) is an international standard, very popular, almost mandatory, and it is the standard for "harmonics" for AC electrical signals.
 IEEE 519 : https://www.elspec-ltd.com/ieee-519-2014-standard-for-harmonics/
-Okay, let's keep this project focused on an AC signal with Total Harmonic Distortion (THD) <= 8%.
+Okay, let's keep this project focused on an AC signal with Total Harmonic Distortion (THD) <= 8%. And this THD level is EXTREMELY COMMON.
 Okay, let's look at the image p98.png (https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v3.0/p98.png), source here: https://www.elspec-ltd.com/wp-content/uploads/2021/01/illustration2-1-800x387.png
 
 
