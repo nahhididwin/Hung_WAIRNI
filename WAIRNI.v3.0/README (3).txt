@@ -1,4 +1,4 @@
-Hung_WAIRNI: Hưng Wave Analysis, Hung's Interpolation Rule and Đ.Đ.P.Hưng Numerical Integration.
+Project : Hung_WAIRNI method
 (GitHub : https://github.com/nahhididwin/Hung_WAIRNI)
 
 Creator : Đặng Đình Phú Hưng (Dang Dinh Phu Hung, https://github.com/nahhididwin)
@@ -17,5 +17,13 @@ Main parts:
 4. Calculate area (Numerical integration) with Hung_WAIRNI
 5. Error analysis
 6. Deploy with code
-7. End
+7. Comparison with other methods/algorithms
+8. End
 --
+
+
+--
+0. What is this project for?
+A method called "Hung_WAIRNI", is a numerical integration method, a peak finding method, used to find "peaks", calculate "areas". Optimized to suit the specific task, currently according to the author, is suitable for AC power.
+--
+
