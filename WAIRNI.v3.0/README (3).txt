@@ -3,7 +3,7 @@ Project : Hung_WAIRNI method
 
 Creator : Đặng Đình Phú Hưng (Dang Dinh Phu Hung, https://github.com/nahhididwin)
 Author's country: Vietnam
-Date of birth (Dang Dinh Phu Hung) (DD/MM/YYYY): 20/06/2011
+Date of birth (Dang Dinh Phu Hung) (DD/MM/YYYY): 06/11/2011
 Languages ​​used: English.
 Publication date (DD/MM/YYYY): 06/11/2025
 
