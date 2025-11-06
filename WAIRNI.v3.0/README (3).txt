@@ -29,6 +29,37 @@ A method called "Hung_WAIRNI", is a numerical integration method, a peak finding
 
 --
 1. The "split" problem, asymmetry, and related data types
+
+The process of converting continuous signals (waves from the environment) into digital signals on a computer is called digitization, includes two main steps:
+Sampling and Quantization.
+Equal spacing: In most common applications (such as audio, image, video, conventional radio signal processing, sensor measurement...),
+analog-to-digital converters (ADC) will sample the signal at fixed intervals, called the sampling period (T_s).
+Easy Calculation and Recovery: Equally spaced sampling makes digital signal processing (DSP) later becomes much simpler and more efficient.
+More importantly, it allows to recover the original analog signal as accurately as possible (within the limits of Nyquist–Shannon Theorem)
+if the sampling frequency (F_s = 1/T_s) is large enough.
+
+Nyquist–Shannon Theorem :
+on wikipedia (a theorem used in the field of information theory):
+https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_l%E1%BA%A5y_m%E1%BA%ABu_Nyquist%E2%80%93Shannon
+
+==> Yes, this is similar to an alternating current (AC) signal.
+
+And the real data is mostly (almost certainly) "asymmetric", and has a lot of "sampling" locations.
+Imagine: Has your heart ever had a beat exactly 1 second after an ECG, and then exactly 1 second later it beats again, and so on for the rest of your life?
+Almost certainly not, the obvious truth. Well, that's why in real data the "measured/discrete/sampled/..." points will have coordinates on the x-axis (maybe time axis,...) that look like this: x = 1.259. x = 1.259 seconds.
+And so that... the "sampling" points are evenly spaced?
+Then there would have to be a lot of sampling points!
+And this is also quite related to Numerical Integration, when to calculate very accurately the area of ​​a shape with "curved" (nonlinear) sides (such as "1 half" of a circle), when using "Trapezoid Method, Riemann Sum,..." we need to have a lot of EQUALLY SPACED discrete points.
+
+Suppose there is a linear line AB in a signal, created by 3 discrete points A, B, C connected together. And the coordinates of point A are (x:1;y:1); coordinates of point B are (x:2;y:2); C(x:3;y:2). And there will only need 3 measurement points spaced 1 unit apart (it can be seconds, minutes or something, but we will call it unit). Simply put, the word "unit" is a word I came up with to indicate the smallest distance between 2 points in the signal, for example, in the signal there are 3 points, point 1 is 1 second from point 2, point 2 is 0.5 seconds from point 3, so 1 unit will equal 0.5 seconds for the entire signal. Well, since the "sampling" points will be evenly spaced (I stated that above), the distance between two consecutive points in the signal will all be units.
+
+
+In short :
+
+The "dividing" issue is the 1.259 seconds issue I mentioned, which causes the number of "sampling" points to increase a lot.
+And real-world data will often (almost certainly) be asymmetrical, including alternating current (AC).
+The discrete "sampled" points are evenly spaced.
+
 --
 
 --
@@ -68,30 +99,6 @@ Due to their small amplitudes, the higher harmonics are not strong enough to com
 In-phase at 0 V: Both the fundamental sine wave and all odd harmonics (1st, 3rd, 5th, 7th...) tend to pass through 0 (or near 0) at the same point in the cycle.
 When two waves are added together, if they are both near 0, their sum will also be very close to 0. This causes the zero-crossing of the distorted wave to still closely match the ideal sine wave, leaving the near 0 V portion of the wave less affected in amplitude.
 The largest change near 0 V is usually the change in slope (rate of change), but because the harmonic amplitude is low (<= 8%), this change in slope is not too severe, resulting in the wave shape here still retaining the same "steepness" as the fundamental sine wave.
-
-
-The process of converting continuous signals (waves from the environment) into digital signals on a computer is called digitization, includes two main steps:
-Sampling and Quantization.
-Equal spacing: In most common applications (such as audio, image, video, conventional radio signal processing, sensor measurement...),
-analog-to-digital converters (ADC) will sample the signal at fixed intervals, called the sampling period (T_s).
-Easy Calculation and Recovery: Equally spaced sampling makes digital signal processing (DSP) later becomes much simpler and more efficient.
-More importantly, it allows to recover the original analog signal as accurately as possible (within the limits of Nyquist–Shannon Theorem)
-if the sampling frequency (F_s = 1/T_s) is large enough.
-
-Nyquist–Shannon Theorem :
-on wikipedia (a theorem used in the field of information theory):
-https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_l%E1%BA%A5y_m%E1%BA%ABu_Nyquist%E2%80%93Shannon
-
-==> Yes, this is similar to an alternating current (AC) signal.
-
-And the real data is mostly (almost certainly) "asymmetric", and has a lot of "sampling" locations.
-Imagine: Has your heart ever had a beat exactly 1 second after an ECG, and then exactly 1 second later it beats again, and so on for the rest of your life?
-Almost certainly not, the obvious truth. Well, that's why in real data the "measured/discrete/sampled/..." points will have coordinates on the x-axis (maybe time axis,...) that look like this: x = 1.259.
-And so that... the "sampling" points are evenly spaced?
-Then there would have to be a lot of sampling points!
-And this is also quite related to Numerical Integration, when to calculate very accurately the area of ​​a shape with "curved" (nonlinear) sides (such as "1 half" of a circle), when using "Trapezoid Method, Riemann Sum,..." we need to have a lot of EQUALLY SPACED discrete points.
-
-Suppose there is a linear line AB in a signal, created by 3 discrete points A, B, C connected together. And the coordinates of point A are (x:1;y:1); coordinates of point B are (x:2;y:2); C(x:3;y:2). And there will only need 3 measurement points spaced 1 unit apart (it can be seconds, minutes or something, but we will call it unit). Simply put, the word "unit" is a word I came up with to indicate the smallest distance between 2 points in the signal, for example, in the signal there are 3 points, point 1 is 1 second from point 2, point 2 is 0.5 seconds from point 3, so 1 unit will equal 0.5 seconds for the entire signal. Well, since the "sampling" points will be evenly spaced (I stated that above), the distance between two consecutive points in the signal will all be units.
 
 
 
