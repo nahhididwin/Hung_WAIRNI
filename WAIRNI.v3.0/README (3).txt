@@ -8,7 +8,7 @@ Languages ​​used: English.
 Publication date (DD/MM/YYYY): 06/11/2025
 
 This project uses this license (MIT LICENSE) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/LICENSE
-This version is based on many things from the previous version: https://github.com/nahhididwin/Hung_WAIRNI/tree/main/WAIRNI.v2.0
+This version is based on many things from the previous version (This is not a request to reread the previous version, it is just a notice) : https://github.com/nahhididwin/Hung_WAIRNI/tree/main/WAIRNI.v2.0
 
 --
 Main parts:
