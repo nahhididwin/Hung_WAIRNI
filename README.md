@@ -13,3 +13,5 @@ https://github.com/nahhididwin/Hung_WAIRNI/blob/main/LICENSE
 Version v1.0 (Alpha) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v1.0/README(1).txt
 
 Version v2.0 (Alpha) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/README(2).txt
+
+Version v3.0 (Beta) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v3.0/README%20(3).txt
