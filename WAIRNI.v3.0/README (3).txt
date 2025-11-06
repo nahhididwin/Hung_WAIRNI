@@ -65,6 +65,9 @@ Superposition of 3rd and 5th Harmonics:
 Low harmonic amplitude:
 Since the THD is only 8% (an acceptable limit in many industry standards), this means that the total energy of all the higher harmonics is only 8% of the energy of the fundamental.
 Due to their small amplitudes, the higher harmonics are not strong enough to completely change the shape of the sine wave, but only enough to cause local distortion in the regions where the fundamental is at its maximum value (the peak region). At the peak region, the fundamental is changing the slowest (derivative is close to 0), so the superposition of small-amplitude harmonics is more likely to distort the shape there.
+In-phase at 0 V: Both the fundamental sine wave and all odd harmonics (1st, 3rd, 5th, 7th...) tend to pass through 0 (or near 0) at the same point in the cycle.
+When two waves are added together, if they are both near 0, their sum will also be very close to 0. This causes the zero-crossing of the distorted wave to still closely match the ideal sine wave, leaving the near 0 V portion of the wave less affected in amplitude.
+The largest change near 0 V is usually the change in slope (rate of change), but because the harmonic amplitude is low (<= 8%), this change in slope is not too severe, resulting in the wave shape here still retaining the same "steepness" as the fundamental sine wave.
 
 
 
