@@ -8,8 +8,8 @@ my profile : https://github.com/nahhididwin/inputnothing
 https://github.com/nahhididwin/Hung_WAIRNI/blob/main/LICENSE
 
 # Phiên Bản :
-**Lưu ý: Luôn luôn chọn Phiên bản mới nhất để xem, các phiên bản cũ hơn thường có sai sót nhiều hơn, và chất lượng cũng thường không bằng! (Trừ khi các phiên bản mới có yêu cầu đọc lại)**
+**Note: Always choose the Latest Version to view, older versions often have more errors, and the quality is often not as good! (Unless the new versions require rereading the old ones)**
 
-Phiên bản v1.0 (Thử nghiệm) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v1.0/README(1).txt
+Version v1.0 (Alpha) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v1.0/README(1).txt
 
-Phiên bản v2.0 (Thử nghiệm) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/README(2).txt
+Version v2.0 (Alpha) : https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v2.0/README(2).txt
