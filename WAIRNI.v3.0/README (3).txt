@@ -27,3 +27,11 @@ Main parts:
 A method called "Hung_WAIRNI", is a numerical integration method, a peak finding method, used to find "peaks", calculate "areas". Optimized to suit the specific task, currently according to the author, is suitable for AC power.
 --
 
+--
+1. The "split" problem, asymmetry, and related data types
+--
+
+--
+2. Important things
+
+--
