@@ -17,4 +17,5 @@ Main parts:
 4. Calculate area (Numerical integration) with Hung_WAIRNI
 5. Error analysis
 6. Deploy with code
+7. End
 --
