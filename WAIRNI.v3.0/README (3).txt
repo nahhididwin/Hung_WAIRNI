@@ -179,6 +179,17 @@ It takes about 16 to 18 calculations.
 With linear search (the current, very popular method) of an interval N, i.e. O(N) complexity, for each discrete point the computational burden is usually equivalent to an addition or comparison. That is, with a discrete "sampling" frequency of 200 (quite common) per cycle, we will need approximately 200 comparisons/additions.
 And Hung_WAIRNI only takes about O(1) + O(K), and K is much smaller than N.
 
+Don't you believe that the most popular and efficient algorithm today is "Linear Search"?
+Read:
+The peak value of the current (I_peak) is the maximum (maximum) value that the instantaneous current intensity reaches in one AC wave cycle.
+In an AC power system with harmonics (as is very common case like PHD <= 8%), I_peak is really important because it determines many important things.
+The most effective/popular I_peak Calculation Method today (Not considering Hung_WAIRNI):
+High-Speed ​​Digital Sampling combined with Waveform Cycle Analysis.
+This is the approach in harmonic environments (THD <= 8%) because it measures the actual value rather than inferring from the RMS value.
+Analyze the Period and Find the Maximum Value:
+Define Period: The computer will determine the start and end of a fundamental wave cycle (e.g. 20 ms for 50 Hz frequency).
+In the sampled data set i[n] corresponding to one period, the computer only needs to perform one operation to find the absolute maximum value (Absolute Maximum Value).
+Basically iterate through each "sample" in the data series. Then do the comparison. Get the absolute value...
 
 
 --
