@@ -1,5 +1,5 @@
 # Hung_WAIRNI
-Hưng Wave Analysis, Hung's Interpolation Rule and Đ.Đ.P.Hưng Numerical Integration
+Hưng Wave Analysis, Hung's Interpolation/Extrapolation Rule and Đ.Đ.P.Hưng Numerical Integration
 
 my profile : https://github.com/nahhididwin/inputnothing
 
