@@ -196,6 +196,9 @@ Basically iterate through each "sample" in the data series. Then do the comparis
 
 --
 4. Calculate area (Numerical integration) with Hung_WAIRNI
+RMS (Root Mean Square) is actually a formula based on numerical integration. We will apply Hung_WAIRNI to calculate numerical integration faster, hence faster RMS.
+
+...
 --
 
 --
