@@ -183,7 +183,21 @@ And Hung_WAIRNI only takes about O(1) + O(k).
 
 --
 
+--
+4. Calculate area (Numerical integration) with Hung_WAIRNI
+--
 
+--
+5. Error analysis
+--
+
+--
+6. Comparison with other methods/algorithms
+--
+
+--
+7. Deploy with code
+--
 
 --
 8. End
