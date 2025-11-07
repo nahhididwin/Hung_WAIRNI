@@ -192,6 +192,9 @@ In the sampled data set i[n] corresponding to one period, the computer only need
 Basically iterate through each "sample" in the data series. Then do the comparison. Get the absolute value...
 
 
+...I am developing more...
+
+
 --
 
 --
