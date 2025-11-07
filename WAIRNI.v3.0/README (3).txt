@@ -177,7 +177,7 @@ y_C = f'(x_A)(x_C - x_A) + y_A
 It takes about 16 to 18 calculations.
 
 With linear search (the current, very popular method) of an interval N, i.e. O(N) complexity, for each discrete point the computational burden is usually equivalent to an addition or comparison. That is, with a discrete "sampling" frequency of 200 (quite common) per cycle, we will need approximately 200 comparisons/additions.
-And Hung_WAIRNI only takes about O(1) + O(k).
+And Hung_WAIRNI only takes about O(1) + O(K), and K is much smaller than N.
 
 
 
