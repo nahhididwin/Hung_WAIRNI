@@ -1,4 +1,4 @@
-Project : Hung_WAIRNI method
+Project : Hung_WAIRNI method (Hưng_WAIRNI method)
 (GitHub : https://github.com/nahhididwin/Hung_WAIRNI)
 
 Creator : Đặng Đình Phú Hưng (Dang Dinh Phu Hung, https://github.com/nahhididwin)
