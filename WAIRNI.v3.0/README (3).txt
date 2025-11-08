@@ -111,6 +111,7 @@ Practical Level (For Integral Accuracy): Power quality measurement instruments t
 
 Number of Samples Per 1 Sine Wave Cycle:
 That means if it is 10000S/s then 200 samples =)) (This level is quite common).
+Actually there are many cases that don't stop at 200, it can go up to 1000 or more :).
 
 
 --
@@ -180,7 +181,7 @@ y_C = f'(x_A)(x_C - x_A) + y_A
 
 It takes about 16 to 18 calculations.
 
-With linear search (the current, very popular method) of an interval N, i.e. O(N) complexity, for each discrete point the computational burden is usually equivalent to an addition or comparison. That is, with a discrete "sampling" frequency of 200 (quite common) per cycle, we will need approximately 200 comparisons/additions.
+With linear search (the current, very popular method) of an interval N, i.e. O(N) complexity, for each discrete point the computational burden is usually equivalent to an addition or comparison. That is, with a discrete "sampling" frequency of 1000 (quite common) per cycle, we will need approximately 1000 comparisons/additions!
 And Hung_WAIRNI only takes about O(1) + O(K), and K is much smaller than N.
 
 Don't you believe that the most popular and efficient algorithm today is "Linear Search"?
