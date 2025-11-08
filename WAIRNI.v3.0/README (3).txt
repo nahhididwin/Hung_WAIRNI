@@ -132,6 +132,8 @@ Fault Analysis and Diagnosis,...
 See image (p1.png) (https://github.com/nahhididwin/Hung_WAIRNI/blob/main/WAIRNI.v3.0/p1.png), I got that image here: https://www.researchgate.net/figure/Output-waveform-of-a-pure-sine-wave-inverter_fig2_341867445, I brought it here and edited it.
 This is a pure sine wave, so it's theoretical, but I'm showing you, just like, just think of it as a general form.
 
+WAIRNI_Peak_Derivative (WPD) method :
+
 We choose point "a" to lie on the "body" of half a sine wave cycle.
 (in this case a1,a2,a3,a4)
 Calculate the approximate "derivative" of 2 points a1, a2. And approximate the derivative of 2 points a3, a4. To get 2 secant lines (a12; a34).
