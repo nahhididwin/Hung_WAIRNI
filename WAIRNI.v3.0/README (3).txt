@@ -185,6 +185,9 @@ It takes about 16 to 18 calculations.
 
 With linear search (the current, very popular method) of an interval N, i.e. O(N) complexity, for each discrete point the computational burden is usually equivalent to an addition or comparison. That is, with a discrete "sampling" frequency of 1000 (quite common) per cycle, we will need approximately 1000 comparisons/additions!
 And Hung_WAIRNI only takes about O(1) + O(K), and K is much smaller than N.
+
+Sampling 1000 samples/cycle of sine wave is common on powerful and dedicated equipment (AND IT HAS a hardware FPU).
+
 In general, it still depends on the TYPE OF HARDWARE and the ALGORITHM too.
 
 
