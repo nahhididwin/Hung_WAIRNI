@@ -203,6 +203,8 @@ Define Period: The computer will determine the start and end of a fundamental wa
 In the sampled data set i[n] corresponding to one period, the computer only needs to perform one operation to find the absolute maximum value (Absolute Maximum Value).
 Basically iterate through each "sample" in the data series. Then do the comparison. Get the absolute value...
 
+Important notes to avoid misunderstandings: In fact, the "distorted" data has THD <= 8%, usually only "distorted" at the "peak" and "zero-cross" of the sine wave, and furthermore, our "starting point" is right at the "zero-cross" of the sine wave. This is an important clue for what follows.
+
 
 ...I am developing more...
 
