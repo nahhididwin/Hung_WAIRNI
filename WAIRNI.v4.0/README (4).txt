@@ -13,9 +13,23 @@ This version is based on many things from the previous version (This is not a re
 --
 Main parts:
 I. Presented in Vietnamese.
-1.
-2.
+1. Dự án này để làm gì?
+2. Vấn đề "chia", bất đối xứng, và dạng dữ liệu liên quan
+3. Những thứ quan trọng
+4. Tìm "đỉnh" với Hung_WAIRNI
+5. Tối ưu tích phân của RMS (Root Mean Square) với Hung_WAIRNI
+6. Phân tích (Phân tích lỗi,...)
+7. So sánh với các phương pháp/thuật toán khác
+8. Triển khai với code
+9. Kết thúc
 II. Presented in English.
-1.
-2.
+1. What is this project for?
+2. The "split" problem, asymmetry, and related data types
+3. Important things
+4. Find the "peak" with Hung_WAIRNI
+5. Optimizing the integral of RMS (Root Mean Square) with Hung_WAIRNI
+6. Analysis (Error Analysis,...)
+7. Comparison with other methods/algorithms
+8. Deploy with code
+9. End
 --
